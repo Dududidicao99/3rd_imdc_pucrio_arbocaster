@@ -1,0 +1,67 @@
+Descrição das variáveis:
+
+'date' (YYYY-MM-DD) -> Week (starting on Sunday).
+
+'year' (YYYY) -> Based on date
+
+'epiweek' (int - YYYYWW) -> Epidemiological week is defined by the date of symptom onset.
+
+'casos' (int) -> Number of cases per week, classified as probable dengue cases. Target Column
+
+'geocode' (int) -> IBGE’s municipality code.
+
+'uf' (str) -> Federative Unit (state).
+ 
+'uf_code' (int) -> Two-digit code associated with the Federative Unit (state). This value is required to submit predictions to the Mosqlimate platform.
+
+'train_1' (bool) -> Data for the first training (pre-season 22/23).
+
+'train_2' (bool) -> Data for the second training (pre-season 23/24).
+
+'train_3' (bool) -> Data for the third training (pre-season 24/25).
+
+'train_4' (bool) -> Data for the fourth training (pre-season 25/26).
+
+'target_1' (bool) -> Data for the first validation (season 22/23).
+
+'target_2' (bool) -> Data for the second validation (season 23/24).
+
+'target_3' (bool) -> Data for the third validation (season 24/25).
+
+'target_4' (bool) -> Data for the fourth validation (season 25/26). This column does not go up to epiweek 202640 as this data has not yet been reported. However, please send the forecasts for the whole period ([EW 41 2025- EW40 2026]), since by the end of the challenge, the data will be reported, and the forecasts can be evaluated. 
+
+'temp_med' (float (°C)) -> Mean temperature.
+
+'precip_med' (float (mm/h)) -> Average precipitation rate.
+
+'pressure_med' (float (atm)) -> Average atmospheric pressure*.
+
+'rel_humid_med' (float (%)) -> Average relative humidity.
+
+'thermal_range' (float (°C)) -> Difference between the daily maximum and minimum temperature averaged by week
+
+'rainy_days' (int) -> Number of days in the week for which precip\_tot > 0.03.
+
+'enso' (float) -> El Niño-Southern Oscillation is a climate pattern in the Pacific Ocean that has two phases: El Niño and La Niña. In a normal year, in the Pacific Ocean, the trade winds blow westward along the Equator and push warm surface waters near Australia and Indonesia. On the other side of the Pacific Ocean, nutrient-rich cold waters come up off the coast of Central and South America, creating favorable conditions for fishing. During an El Niño event, the trade winds weaken, and warm, nutrient-poor waters are not pushed anymore by the winds, and sea level rises in the eastern tropical Pacific and falls in the western tropical Pacific. La Niña is the opposite phase of El Niño, with warm water piling up in the western Pacific and colder water in the eastern Pacific. This causes a higher sea level in the western tropical Pacific and a lower sea level in the eastern tropical Pacific.
+
+{'Af_koppen', 'Am_koppen', 'As_koppen', 'Aw_koppen', 'BSh_koppen', 'Cfa_koppen', 'Cfb_koppen', 'Cwa_koppen', 'Cwb_koppen'} (dummies) -> 0 or 1 variables to define whether the main climate type is the one or not in a city. 1 for presence and 0 for absence
+ 
+{'Amazônia_biome', 'Caatinga_biome', 'Cerrado_biome', 'Mata Atlântica_biome', 'Pampa_biome', 'Pantanal_biome'} (dummies) -> 0 or 1 variables to define whether the main biome type is the one or not in a city. 1 for presence and 0 for absence
+
+'population' (int) -> Population of the city.
+
+'city_name' (str) -> Municipality name.
+
+'city_area_km2' (float) -> Based on cities geometry, we calculated city's area as a variable
+
+'pop_density_km2' (float) -> It's a created variable from 'population' / 'city_area_km2', to determine the population density
+
+'macroregion_code' (int) -> Macroregion code (1- Norte, 2- Nordeste, 3- Sudeste, 4 -Sul, 5 - Centro-Oeste).
+
+'macroregion_name' (str) -> Macroregion name.
+
+'regional_geocode' (int) -> Regional health code.
+ 
+'regional_health_name' (str) -> Regional health name.
+
+'regional_health_area_km2' (float64) -> Based on regions geometry, we calculated regional's area as a variable
