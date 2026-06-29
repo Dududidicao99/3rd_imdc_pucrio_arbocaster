@@ -1,0 +1,1404 @@
+
+======================================================================
+UF: AC  (uf_code=12)
+======================================================================
+Breusch-Pagan p=0.0000 → log1p
+KPSS d sugerido = 0
+
+  -- Validation 1 --
+  Treino : 2010-01-03 → 2022-06-19 (651 sem)
+  Gap    : 16 semanas
+  Target : 2022-10-09 → 2023-10-01 (52 sem)
+  ARIMA: SARIMA(2, 0, 0)x(1, 0, 0, 52) AICc=570.5
+    MAE=58.0  RMSE=80.7  MAPE=78.9%  WIS=164.28
+  ETS: trend=None  seasonal=None  damped=False  AICc=-886.7
+    MAE=61.4  RMSE=93.5  MAPE=58.8%  WIS=97.87
+  SARIMAX: ordem(2, 0, 0)  AICc=598.5
+    MAE=58.6  RMSE=78.7  MAPE=133.6%  WIS=163.66
+  ★ Melhor modelo V1: ETS (WIS=97.87)
+
+  -- Validation 2 --
+  Treino : 2010-01-03 → 2023-06-18 (703 sem)
+  Gap    : 16 semanas
+  Target : 2023-10-08 → 2024-09-29 (52 sem)
+  ARIMA: SARIMA(2, 0, 0)x(1, 0, 0, 52) AICc=626.1
+    MAE=148.5  RMSE=273.1  MAPE=80.4%  WIS=240.58
+  ETS: trend=None  seasonal=None  damped=False  AICc=-947.4
+    MAE=152.3  RMSE=275.9  MAPE=72.7%  WIS=189.11
+  SARIMAX: ordem(2, 0, 0)  AICc=654.7
+    MAE=101.1  RMSE=218.5  MAPE=29.7%  WIS=191.03
+  ★ Melhor modelo V2: ETS (WIS=189.11)
+
+  -- Validation 3 --
+  Treino : 2010-01-03 → 2024-06-16 (755 sem)
+  Gap    : 16 semanas
+  Target : 2024-10-06 → 2025-09-28 (52 sem)
+  ARIMA: SARIMA(2, 0, 0)x(1, 0, 0, 52) AICc=664.1
+    MAE=163.0  RMSE=245.3  MAPE=59.0%  WIS=213.15
+  ETS: trend=None  seasonal=None  damped=False  AICc=-1012.4
+    MAE=179.5  RMSE=265.1  MAPE=61.1%  WIS=188.55
+  SARIMAX: ordem(2, 0, 0)  AICc=684.6
+    MAE=133.9  RMSE=197.3  MAPE=51.5%  WIS=174.99
+  ★ Melhor modelo V3: SARIMAX (WIS=174.99)
+
+  -- Validation 4 --
+  Treino : 2010-01-03 → 2025-06-15 (807 sem)
+  Gap    : 16 semanas
+  Target : 2025-10-05 → 2026-03-08 (23 sem)
+  ARIMA: SARIMA(2, 0, 0)x(1, 0, 0, 52) AICc=673.8
+    MAE=39.2  RMSE=44.6  MAPE=75.3%  WIS=242.15
+  ETS: trend=None  seasonal=None  damped=False  AICc=-1100.2
+    MAE=30.0  RMSE=37.2  MAPE=54.7%  WIS=126.58
+  SARIMAX: ordem(2, 0, 0)  AICc=710.5
+    MAE=359.9  RMSE=471.1  MAPE=448.8%  WIS=833.34
+  ★ Melhor modelo V4: ETS (WIS=126.58)
+
+======================================================================
+UF: AL  (uf_code=27)
+======================================================================
+Breusch-Pagan p=0.0009 → log1p
+KPSS d sugerido = 1
+
+  -- Validation 1 --
+  Treino : 2010-01-03 → 2022-06-19 (651 sem)
+  Gap    : 16 semanas
+  Target : 2022-10-09 → 2023-10-01 (52 sem)
+  ARIMA: SARIMA(2, 1, 0)x(1, 0, 0, 52) AICc=268.9
+    MAE=2485.1  RMSE=2631.0  MAPE=3129.9%  WIS=12979.39
+  ETS: trend=None  seasonal=None  damped=False  AICc=-1187.6
+    MAE=1788.3  RMSE=1788.8  MAPE=2630.0%  WIS=3090.02
+  SARIMAX: ordem(2, 1, 0)  AICc=253.0
+    MAE=1338.6  RMSE=1543.3  MAPE=1476.1%  WIS=4672.06
+  ★ Melhor modelo V1: ETS (WIS=3090.02)
+
+  -- Validation 2 --
+  Treino : 2010-01-03 → 2023-06-18 (703 sem)
+  Gap    : 16 semanas
+  Target : 2023-10-08 → 2024-09-29 (52 sem)
+  ARIMA: SARIMA(2, 1, 0)x(1, 0, 0, 52) AICc=275.0
+    MAE=304.3  RMSE=392.4  MAPE=74.2%  WIS=379.05
+  ETS: trend=None  seasonal=None  damped=False  AICc=-1268.9
+    MAE=279.4  RMSE=346.1  MAPE=124.4%  WIS=270.95
+  SARIMAX: ordem(2, 1, 0)  AICc=261.2
+    MAE=278.6  RMSE=359.6  MAPE=61.5%  WIS=321.54
+  ★ Melhor modelo V2: ETS (WIS=270.95)
+
+  -- Validation 3 --
+  Treino : 2010-01-03 → 2024-06-16 (755 sem)
+  Gap    : 16 semanas
+  Target : 2024-10-06 → 2025-09-28 (52 sem)
+  ARIMA: SARIMA(2, 1, 0)x(1, 0, 0, 52) AICc=280.6
+    MAE=788.6  RMSE=814.3  MAPE=675.3%  WIS=4831.51
+  ETS: trend=None  seasonal=None  damped=False  AICc=-1352.0
+    MAE=529.2  RMSE=538.8  MAPE=528.3%  WIS=1037.24
+  SARIMAX: ordem(2, 1, 0)  AICc=263.2
+    MAE=293.9  RMSE=376.2  MAPE=246.6%  WIS=1425.96
+  ★ Melhor modelo V3: ETS (WIS=1037.24)
+
+  -- Validation 4 --
+  Treino : 2010-01-03 → 2025-06-15 (807 sem)
+  Gap    : 16 semanas
+  Target : 2025-10-05 → 2026-03-08 (23 sem)
+  ARIMA: SARIMA(2, 1, 0)x(1, 0, 0, 52) AICc=273.1
+    MAE=35.1  RMSE=42.3  MAPE=71.8%  WIS=228.03
+  ETS: trend=None  seasonal=None  damped=False  AICc=-1468.4
+    MAE=86.3  RMSE=92.7  MAPE=177.5%  WIS=172.11
+  SARIMAX: ordem(2, 1, 0)  AICc=248.7
+    MAE=56.9  RMSE=63.3  MAPE=78.2%  WIS=65.11
+  ★ Melhor modelo V4: SARIMAX (WIS=65.11)
+
+======================================================================
+UF: AM  (uf_code=13)
+======================================================================
+Breusch-Pagan p=0.0000 → log1p
+KPSS d sugerido = 0
+
+  -- Validation 1 --
+  Treino : 2010-01-03 → 2022-06-19 (651 sem)
+  Gap    : 16 semanas
+  Target : 2022-10-09 → 2023-10-01 (52 sem)
+  ARIMA: SARIMA(2, 0, 0)x(1, 0, 0, 52) AICc=343.8
+    MAE=52.1  RMSE=73.8  MAPE=34.5%  WIS=114.05
+  ETS: trend=None  seasonal=None  damped=False  AICc=-1170.0
+    MAE=59.6  RMSE=79.6  MAPE=40.6%  WIS=96.83
+  SARIMAX: ordem(2, 0, 0)  AICc=421.1
+    MAE=53.7  RMSE=64.4  MAPE=48.7%  WIS=87.41
+  ★ Melhor modelo V1: SARIMAX (WIS=87.41)
+
+  -- Validation 2 --
+  Treino : 2010-01-03 → 2023-06-18 (703 sem)
+  Gap    : 16 semanas
+  Target : 2023-10-08 → 2024-09-29 (52 sem)
+  ARIMA: SARIMA(2, 0, 0)x(1, 0, 0, 52) AICc=374.2
+    MAE=118.5  RMSE=190.7  MAPE=46.1%  WIS=172.52
+  ETS: trend=None  seasonal=None  damped=False  AICc=-1255.5
+    MAE=123.9  RMSE=202.5  MAPE=43.6%  WIS=172.78
+  SARIMAX: ordem(2, 0, 0)  AICc=460.1
+    MAE=129.7  RMSE=197.9  MAPE=51.1%  WIS=124.65
+  ★ Melhor modelo V2: SARIMAX (WIS=124.65)
+
+  -- Validation 3 --
+  Treino : 2010-01-03 → 2024-06-16 (755 sem)
+  Gap    : 16 semanas
+  Target : 2024-10-06 → 2025-09-28 (52 sem)
+  ARIMA: SARIMA(2, 0, 0)x(1, 0, 0, 52) AICc=384.0
+    MAE=39.6  RMSE=51.2  MAPE=34.0%  WIS=127.54
+  ETS: trend=None  seasonal=None  damped=False  AICc=-1352.8
+    MAE=56.5  RMSE=76.7  MAPE=39.5%  WIS=94.93
+  SARIMAX: ordem(2, 0, 0)  AICc=520.8
+    MAE=23.9  RMSE=31.5  MAPE=21.0%  WIS=102.91
+  ★ Melhor modelo V3: ETS (WIS=94.93)
+
+  -- Validation 4 --
+  Treino : 2010-01-03 → 2025-06-15 (807 sem)
+  Gap    : 16 semanas
+  Target : 2025-10-05 → 2026-03-08 (23 sem)
+  ARIMA: SARIMA(2, 0, 0)x(1, 0, 0, 52) AICc=378.4
+    MAE=33.6  RMSE=37.9  MAPE=67.9%  WIS=122.51
+  ETS: trend=None  seasonal=None  damped=False  AICc=-1482.0
+    MAE=23.8  RMSE=26.6  MAPE=43.4%  WIS=80.47
+  SARIMAX: ordem(2, 0, 0)  AICc=531.7
+    MAE=10575.3  RMSE=16054.9  MAPE=14622.8%  WIS=15074.25
+  ★ Melhor modelo V4: ETS (WIS=80.47)
+
+======================================================================
+UF: AP  (uf_code=16)
+======================================================================
+Breusch-Pagan p=0.0000 → log1p
+KPSS d sugerido = 1
+
+  -- Validation 1 --
+  Treino : 2010-01-03 → 2022-06-19 (651 sem)
+  Gap    : 16 semanas
+  Target : 2022-10-09 → 2023-10-01 (52 sem)
+  ARIMA: SARIMA(0, 1, 1)x(1, 0, 0, 52) AICc=956.9
+    MAE=16.4  RMSE=25.0  MAPE=79.2%  WIS=44.90
+  ETS: trend=None  seasonal=None  damped=False  AICc=-814.3
+    MAE=16.3  RMSE=24.7  MAPE=83.9%  WIS=18.60
+  SARIMAX: ordem(0, 1, 1)  AICc=952.9
+    MAE=13.8  RMSE=23.2  MAPE=76.4%  WIS=44.26
+  ★ Melhor modelo V1: ETS (WIS=18.60)
+
+  -- Validation 2 --
+  Treino : 2010-01-03 → 2023-06-18 (703 sem)
+  Gap    : 16 semanas
+  Target : 2023-10-08 → 2024-09-29 (52 sem)
+  ARIMA: SARIMA(0, 1, 1)x(1, 0, 0, 52) AICc=1036.4
+    MAE=198.0  RMSE=259.4  MAPE=81.1%  WIS=218.50
+  ETS: trend=None  seasonal=None  damped=False  AICc=-876.4
+    MAE=199.9  RMSE=261.2  MAPE=81.9%  WIS=177.62
+  SARIMAX: ordem(0, 1, 1)  AICc=1027.0
+    MAE=191.3  RMSE=250.7  MAPE=79.5%  WIS=191.66
+  ★ Melhor modelo V2: ETS (WIS=177.62)
+
+  -- Validation 3 --
+  Treino : 2010-01-03 → 2024-06-16 (755 sem)
+  Gap    : 16 semanas
+  Target : 2024-10-06 → 2025-09-28 (52 sem)
+  ARIMA: SARIMA(0, 1, 1)x(1, 0, 0, 52) AICc=1119.7
+    MAE=204.4  RMSE=206.6  MAPE=469.9%  WIS=2675.20
+  ETS: trend=None  seasonal=None  damped=False  AICc=-907.1
+    MAE=145.7  RMSE=148.7  MAPE=353.7%  WIS=520.73
+  SARIMAX: ordem(0, 1, 1)  AICc=1106.3
+    MAE=254.0  RMSE=268.9  MAPE=532.6%  WIS=1974.57
+  ★ Melhor modelo V3: ETS (WIS=520.73)
+
+  -- Validation 4 --
+  Treino : 2010-01-03 → 2025-06-15 (807 sem)
+  Gap    : 16 semanas
+  Target : 2025-10-05 → 2026-03-08 (23 sem)
+  ARIMA: SARIMA(0, 1, 1)x(1, 0, 0, 52) AICc=1158.8
+    MAE=24.1  RMSE=25.4  MAPE=531.6%  WIS=175.11
+  ETS: trend=None  seasonal=None  damped=False  AICc=-996.5
+    MAE=34.6  RMSE=35.8  MAPE=735.1%  WIS=87.64
+  SARIMAX: ordem(0, 1, 1)  AICc=1139.3
+    MAE=22.9  RMSE=24.4  MAPE=361.7%  WIS=58.89
+  ★ Melhor modelo V4: SARIMAX (WIS=58.89)
+
+======================================================================
+UF: BA  (uf_code=29)
+======================================================================
+Breusch-Pagan p=0.0000 → log1p
+KPSS d sugerido = 0
+
+  -- Validation 1 --
+  Treino : 2010-01-03 → 2022-06-19 (651 sem)
+  Gap    : 16 semanas
+  Target : 2022-10-09 → 2023-10-01 (52 sem)
+  ARIMA: SARIMA(1, 0, 0)x(1, 0, 1, 52) AICc=-156.9
+    MAE=420.2  RMSE=497.9  MAPE=86.1%  WIS=745.85
+  ETS: trend=None  seasonal=None  damped=False  AICc=-1169.5
+    MAE=494.6  RMSE=545.3  MAPE=240.3%  WIS=1247.71
+  SARIMAX: ordem(1, 0, 0)  AICc=64.3
+    MAE=428.2  RMSE=530.3  MAPE=64.2%  WIS=604.37
+  ★ Melhor modelo V1: SARIMAX (WIS=604.37)
+
+  -- Validation 2 --
+  Treino : 2010-01-03 → 2023-06-18 (703 sem)
+  Gap    : 16 semanas
+  Target : 2023-10-08 → 2024-09-29 (52 sem)
+  ARIMA: SARIMA(2, 0, 0)x(1, 0, 0, 52) AICc=-113.1
+    MAE=4023.2  RMSE=7308.9  MAPE=65.0%  WIS=4106.88
+  ETS: trend=None  seasonal=None  damped=False  AICc=-1220.2
+    MAE=4199.8  RMSE=7052.5  MAPE=174.8%  WIS=4542.22
+  SARIMAX: ordem(2, 0, 0)  AICc=46.4
+    MAE=3868.2  RMSE=6911.3  MAPE=66.6%  WIS=3590.72
+  ★ Melhor modelo V2: SARIMAX (WIS=3590.72)
+
+  -- Validation 3 --
+  Treino : 2010-01-03 → 2024-06-16 (755 sem)
+  Gap    : 16 semanas
+  Target : 2024-10-06 → 2025-09-28 (52 sem)
+  ARIMA: SARIMA(2, 0, 0)x(1, 0, 0, 52) AICc=-113.5
+    MAE=487.3  RMSE=576.2  MAPE=81.9%  WIS=1866.41
+  ETS: trend=None  seasonal=None  damped=False  AICc=-1247.6
+    MAE=2469.5  RMSE=2493.3  MAPE=510.8%  WIS=5553.24
+  SARIMAX: ordem(2, 0, 0)  AICc=317.2
+    MAE=308.3  RMSE=449.9  MAPE=41.7%  WIS=973.19
+  ★ Melhor modelo V3: SARIMAX (WIS=973.19)
+
+  -- Validation 4 --
+  Treino : 2010-01-03 → 2025-06-15 (807 sem)
+  Gap    : 16 semanas
+  Target : 2025-10-05 → 2026-03-08 (23 sem)
+  ARIMA: SARIMA(2, 0, 0)x(1, 0, 0, 52) AICc=-150.0
+    MAE=158.8  RMSE=192.0  MAPE=68.0%  WIS=621.98
+  ETS: trend=None  seasonal=None  damped=False  AICc=-1354.2
+    MAE=507.0  RMSE=510.1  MAPE=194.8%  WIS=941.46
+  SARIMAX: ordem(2, 0, 0)  AICc=289.8
+    MAE=1251.0  RMSE=1823.5  MAPE=446.0%  WIS=1921.86
+  ★ Melhor modelo V4: ARIMA (WIS=621.98)
+
+======================================================================
+UF: CE  (uf_code=23)
+======================================================================
+Breusch-Pagan p=0.0000 → log1p
+KPSS d sugerido = 1
+
+  -- Validation 1 --
+  Treino : 2010-01-03 → 2022-06-19 (651 sem)
+  Gap    : 16 semanas
+  Target : 2022-10-09 → 2023-10-01 (52 sem)
+  ARIMA: SARIMA(1, 1, 2)x(1, 0, 1, 52) AICc=-107.7
+    MAE=790.5  RMSE=885.9  MAPE=315.1%  WIS=12742.36
+  ETS: trend=None  seasonal=None  damped=False  AICc=-1083.2
+    MAE=1832.1  RMSE=1841.6  MAPE=988.9%  WIS=3540.76
+  SARIMAX: ordem(1, 1, 2)  AICc=-91.7
+    MAE=1391.1  RMSE=1759.3  MAPE=437.8%  WIS=4979.05
+  ★ Melhor modelo V1: ETS (WIS=3540.76)
+
+  -- Validation 2 --
+  Treino : 2010-01-03 → 2023-06-18 (703 sem)
+  Gap    : 16 semanas
+  Target : 2023-10-08 → 2024-09-29 (52 sem)
+  ARIMA: SARIMA(1, 1, 2)x(1, 0, 1, 52) AICc=-114.6
+    MAE=110.9  RMSE=183.5  MAPE=45.7%  WIS=1854.21
+  ETS: trend=None  seasonal=None  damped=False  AICc=-1175.9
+    MAE=299.1  RMSE=331.9  MAPE=319.5%  WIS=858.57
+  SARIMAX: ordem(1, 1, 2)  AICc=-112.7
+    MAE=207.8  RMSE=273.8  MAPE=87.9%  WIS=1362.49
+  ★ Melhor modelo V2: ETS (WIS=858.57)
+
+  -- Validation 3 --
+  Treino : 2010-01-03 → 2024-06-16 (755 sem)
+  Gap    : 16 semanas
+  Target : 2024-10-06 → 2025-09-28 (52 sem)
+  ARIMA: SARIMA(1, 1, 2)x(1, 0, 1, 52) AICc=-131.6
+    MAE=53.3  RMSE=62.9  MAPE=68.8%  WIS=1256.50
+  ETS: trend=None  seasonal=None  damped=False  AICc=-1263.1
+    MAE=266.7  RMSE=274.2  MAPE=401.4%  WIS=617.97
+  SARIMAX: ordem(1, 1, 2)  AICc=-105.1
+    MAE=225.2  RMSE=299.9  MAPE=194.3%  WIS=949.92
+  ★ Melhor modelo V3: ETS (WIS=617.97)
+
+  -- Validation 4 --
+  Treino : 2010-01-03 → 2025-06-15 (807 sem)
+  Gap    : 16 semanas
+  Target : 2025-10-05 → 2026-03-08 (23 sem)
+  ARIMA: SARIMA(2, 1, 2)x(1, 0, 1, 52) AICc=-106.2
+    MAE=70.1  RMSE=99.4  MAPE=56.4%  WIS=175.91
+  ETS: trend=None  seasonal=None  damped=False  AICc=-1360.8
+    MAE=74.2  RMSE=85.5  MAPE=89.7%  WIS=173.73
+  SARIMAX: ordem(2, 1, 2)  AICc=-24.6
+    MAE=96.1  RMSE=130.5  MAPE=78.0%  WIS=99.22
+  ★ Melhor modelo V4: SARIMAX (WIS=99.22)
+
+======================================================================
+UF: DF  (uf_code=53)
+======================================================================
+Breusch-Pagan p=0.0000 → log1p
+KPSS d sugerido = 1
+
+  -- Validation 1 --
+  Treino : 2010-01-03 → 2022-06-19 (651 sem)
+  Gap    : 16 semanas
+  Target : 2022-10-09 → 2023-10-01 (52 sem)
+  ARIMA: SARIMA(2, 1, 2)x(1, 0, 0, 52) AICc=232.0
+    MAE=249.0  RMSE=329.9  MAPE=31.7%  WIS=72519.29
+  ETS: trend=None  seasonal=None  damped=False  AICc=-904.6
+    MAE=903.8  RMSE=941.4  MAPE=186.3%  WIS=3283.69
+  SARIMAX: ordem(2, 1, 2)  AICc=194.4
+    MAE=864.4  RMSE=1310.1  MAPE=100.2%  WIS=3338.90
+  ★ Melhor modelo V1: ETS (WIS=3283.69)
+
+  -- Validation 2 --
+  Treino : 2010-01-03 → 2023-06-18 (703 sem)
+  Gap    : 16 semanas
+  Target : 2023-10-08 → 2024-09-29 (52 sem)
+  ARIMA: SARIMA(2, 1, 2)x(1, 0, 0, 52) AICc=210.7
+    MAE=5331.1  RMSE=9081.7  MAPE=81.1%  WIS=59328.55
+  ETS: trend=None  seasonal=None  damped=False  AICc=-1011.0
+    MAE=5291.0  RMSE=8943.2  MAPE=121.8%  WIS=5479.28
+  SARIMAX: ordem(2, 1, 2)  AICc=169.3
+    MAE=4889.1  RMSE=8564.2  MAPE=56.9%  WIS=4662.04
+  ★ Melhor modelo V2: SARIMAX (WIS=4662.04)
+
+  -- Validation 3 --
+  Treino : 2010-01-03 → 2024-06-16 (755 sem)
+  Gap    : 16 semanas
+  Target : 2024-10-06 → 2025-09-28 (52 sem)
+  ARIMA: SARIMA(2, 1, 2)x(1, 0, 0, 52) AICc=204.4
+    MAE=148.9  RMSE=171.0  MAPE=51.6%  WIS=20228.66
+  ETS: trend=None  seasonal=None  damped=False  AICc=-1055.4
+    MAE=1060.3  RMSE=1065.5  MAPE=498.7%  WIS=2697.30
+  SARIMAX: ordem(2, 1, 2)  AICc=168.7
+    MAE=612.9  RMSE=897.7  MAPE=209.3%  WIS=2120.97
+  ★ Melhor modelo V3: SARIMAX (WIS=2120.97)
+
+  -- Validation 4 --
+  Treino : 2010-01-03 → 2025-06-15 (807 sem)
+  Gap    : 16 semanas
+  Target : 2025-10-05 → 2026-03-08 (23 sem)
+  ARIMA: SARIMA(2, 1, 0)x(1, 0, 0, 52) AICc=263.5
+    MAE=48.0  RMSE=64.8  MAPE=28.0%  WIS=464.23
+  ETS: trend=None  seasonal=None  damped=False  AICc=-1151.2
+    MAE=45.9  RMSE=54.1  MAPE=31.8%  WIS=276.97
+  SARIMAX: ordem(2, 1, 0)  AICc=145.7
+    MAE=114.3  RMSE=132.9  MAPE=72.4%  WIS=154.15
+  ★ Melhor modelo V4: SARIMAX (WIS=154.15)
+
+======================================================================
+UF: GO  (uf_code=52)
+======================================================================
+Breusch-Pagan p=0.0000 → log1p
+KPSS d sugerido = 0
+
+  -- Validation 1 --
+  Treino : 2010-01-03 → 2022-06-19 (651 sem)
+  Gap    : 16 semanas
+  Target : 2022-10-09 → 2023-10-01 (52 sem)
+  ARIMA: SARIMA(1, 0, 0)x(1, 0, 1, 52) AICc=-291.5
+    MAE=1209.3  RMSE=1505.9  MAPE=88.9%  WIS=2775.88
+  ETS: trend=None  seasonal=None  damped=False  AICc=-1188.0
+    MAE=2148.8  RMSE=2283.4  MAPE=257.9%  WIS=4730.61
+  SARIMAX: ordem(1, 0, 0)  AICc=-130.1
+    MAE=549.1  RMSE=736.8  MAPE=42.7%  WIS=1261.34
+  ★ Melhor modelo V1: SARIMAX (WIS=1261.34)
+
+  -- Validation 2 --
+  Treino : 2010-01-03 → 2023-06-18 (703 sem)
+  Gap    : 16 semanas
+  Target : 2023-10-08 → 2024-09-29 (52 sem)
+  ARIMA: SARIMA(2, 0, 0)x(1, 0, 1, 52) AICc=-305.0
+    MAE=5788.3  RMSE=8926.8  MAPE=58.7%  WIS=5363.52
+  ETS: trend=None  seasonal=None  damped=False  AICc=-1291.4
+    MAE=5969.6  RMSE=9312.7  MAPE=62.0%  WIS=6056.43
+  SARIMAX: ordem(2, 0, 0)  AICc=-146.5
+    MAE=5047.4  RMSE=7823.2  MAPE=58.5%  WIS=4722.98
+  ★ Melhor modelo V2: SARIMAX (WIS=4722.98)
+
+  -- Validation 3 --
+  Treino : 2010-01-03 → 2024-06-16 (755 sem)
+  Gap    : 16 semanas
+  Target : 2024-10-06 → 2025-09-28 (52 sem)
+  ARIMA: SARIMA(1, 0, 0)x(1, 0, 1, 52) AICc=-340.9
+    MAE=1618.8  RMSE=2096.5  MAPE=79.0%  WIS=4364.92
+  ETS: trend=None  seasonal=None  damped=False  AICc=-1358.7
+    MAE=3755.2  RMSE=4004.2  MAPE=303.0%  WIS=8530.35
+  SARIMAX: ordem(1, 0, 0)  AICc=-137.7
+    MAE=565.0  RMSE=729.3  MAPE=28.8%  WIS=1559.13
+  ★ Melhor modelo V3: SARIMAX (WIS=1559.13)
+
+  -- Validation 4 --
+  Treino : 2010-01-03 → 2025-06-15 (807 sem)
+  Gap    : 16 semanas
+  Target : 2025-10-05 → 2026-03-08 (23 sem)
+  ARIMA: SARIMA(1, 0, 0)x(1, 0, 1, 52) AICc=-383.2
+    MAE=517.7  RMSE=725.7  MAPE=31.3%  WIS=2056.02
+  ETS: trend=None  seasonal=None  damped=False  AICc=-1465.2
+    MAE=1447.1  RMSE=1546.5  MAPE=116.7%  WIS=3093.49
+  SARIMAX: ordem(1, 0, 0)  AICc=-203.6
+    MAE=1682.8  RMSE=2368.9  MAPE=62.4%  WIS=2008.38
+  ★ Melhor modelo V4: SARIMAX (WIS=2008.38)
+
+======================================================================
+UF: MA  (uf_code=21)
+======================================================================
+Breusch-Pagan p=0.5189 → nível
+KPSS d sugerido = 0
+
+  -- Validation 1 --
+  Treino : 2010-01-03 → 2022-06-19 (651 sem)
+  Gap    : 16 semanas
+  Target : 2022-10-09 → 2023-10-01 (52 sem)
+  ARIMA: SARIMA(2, 0, 1)x(1, 0, 0, 52) AICc=7246.7
+    MAE=77.9  RMSE=87.7  MAPE=191.8%  WIS=224.61
+  ETS: trend=None  seasonal=None  damped=False  AICc=5982.4
+    MAE=143.5  RMSE=154.5  MAPE=371.1%  WIS=245.45
+  SARIMAX: ordem(2, 0, 1)  AICc=10417.8
+    MAE=1633958138033161330425320086453335538465344638557970825655996582461440.0  RMSE=10719703719432841127699481324331271281196024578812698118911689492529152.0  MAPE=8264656635415614185271170138257623722815127459021595662250740511932416.0%  WIS=7643442828362129032188884273307262774119912546581545522905373808263168.00
+  ★ Melhor modelo V1: ARIMA (WIS=224.61)
+
+  -- Validation 2 --
+  Treino : 2010-01-03 → 2023-06-18 (703 sem)
+  Gap    : 16 semanas
+  Target : 2023-10-08 → 2024-09-29 (52 sem)
+  ARIMA: SARIMA(2, 0, 1)x(1, 0, 0, 52) AICc=7784.5
+    MAE=191.5  RMSE=300.4  MAPE=280.1%  WIS=291.97
+  ETS: trend=None  seasonal=None  damped=False  AICc=6420.5
+    MAE=186.9  RMSE=316.1  MAPE=205.1%  WIS=304.55
+  SARIMAX: ordem(2, 0, 1)  AICc=10219.2
+    MAE=1919303204515233647733591395025405168769688403968.0  RMSE=11440475756873079497081134823016429300547965681664.0  MAPE=9800025349762719003508273457073012821753115705344.0%  WIS=28481470002876228018784040099626971170460552658944.00
+  ★ Melhor modelo V2: ARIMA (WIS=291.97)
+
+  -- Validation 3 --
+  Treino : 2010-01-03 → 2024-06-16 (755 sem)
+  Gap    : 16 semanas
+  Target : 2024-10-06 → 2025-09-28 (52 sem)
+  ARIMA: SARIMA(2, 0, 1)x(1, 0, 0, 52) AICc=8395.7
+    MAE=58.0  RMSE=67.4  MAPE=192.2%  WIS=221.76
+  ETS: trend=None  seasonal=None  damped=False  AICc=6983.8
+    MAE=85.5  RMSE=97.8  MAPE=285.6%  WIS=244.82
+  SARIMAX: ordem(2, 0, 1)  AICc=9354.9
+    MAE=16518801333042102.0  RMSE=62362391344605312.0  MAPE=28877649723171908.0%  WIS=71054068595790760.00
+  ★ Melhor modelo V3: ARIMA (WIS=221.76)
+
+  -- Validation 4 --
+  Treino : 2010-01-03 → 2025-06-15 (807 sem)
+  Gap    : 16 semanas
+  Target : 2025-10-05 → 2026-03-08 (23 sem)
+  ARIMA: SARIMA(2, 0, 1)x(1, 0, 0, 52) AICc=8936.6
+    MAE=105.6  RMSE=157.6  MAPE=77.3%  WIS=230.88
+  ETS: trend=None  seasonal=None  damped=False  AICc=7423.5
+    MAE=112.2  RMSE=164.2  MAPE=83.9%  WIS=220.85
+  SARIMAX: ordem(2, 0, 1)  AICc=10055.8
+    MAE=40735458706.3  RMSE=107687559430.0  MAPE=36287009436.0%  WIS=157115239081.70
+  ★ Melhor modelo V4: ETS (WIS=220.85)
+
+======================================================================
+UF: MG  (uf_code=31)
+======================================================================
+Breusch-Pagan p=0.0000 → log1p
+KPSS d sugerido = 0
+
+  -- Validation 1 --
+  Treino : 2010-01-03 → 2022-06-19 (651 sem)
+  Gap    : 16 semanas
+  Target : 2022-10-09 → 2023-10-01 (52 sem)
+  ARIMA: SARIMA(1, 0, 2)x(1, 0, 1, 52) AICc=-178.3
+    MAE=5905.1  RMSE=9650.2  MAPE=70.3%  WIS=7779.29
+  ETS: trend=None  seasonal=None  damped=False  AICc=-723.7
+    MAE=6624.8  RMSE=10465.6  MAPE=161.5%  WIS=7779.57
+  SARIMAX: ordem(1, 0, 2)  AICc=106.4
+    MAE=5867.7  RMSE=9418.9  MAPE=71.4%  WIS=4806.44
+  ★ Melhor modelo V1: SARIMAX (WIS=4806.44)
+
+  -- Validation 2 --
+  Treino : 2010-01-03 → 2023-06-18 (703 sem)
+  Gap    : 16 semanas
+  Target : 2023-10-08 → 2024-09-29 (52 sem)
+  ARIMA: SARIMA(2, 0, 0)x(1, 0, 0, 52) AICc=-115.8
+    MAE=31046.4  RMSE=53102.5  MAPE=75.7%  WIS=27977.79
+  ETS: trend=None  seasonal=None  damped=False  AICc=-766.1
+    MAE=32110.4  RMSE=53070.4  MAPE=233.6%  WIS=38593.61
+  SARIMAX: ordem(2, 0, 0)  AICc=10.3
+    MAE=29488.3  RMSE=50649.4  MAPE=66.3%  WIS=26180.53
+  ★ Melhor modelo V2: SARIMAX (WIS=26180.53)
+
+  -- Validation 3 --
+  Treino : 2010-01-03 → 2024-06-16 (755 sem)
+  Gap    : 16 semanas
+  Target : 2024-10-06 → 2025-09-28 (52 sem)
+  ARIMA: SARIMA(2, 0, 2)x(1, 0, 0, 52) AICc=-219.2
+    MAE=825.1  RMSE=1161.4  MAPE=32.9%  WIS=8563.25
+  ETS: trend=None  seasonal=None  damped=False  AICc=-800.3
+    MAE=8454.7  RMSE=8921.8  MAPE=720.9%  WIS=32609.42
+  SARIMAX: ordem(2, 0, 2)  AICc=305.6
+    MAE=1596.5  RMSE=2600.6  MAPE=43.6%  WIS=6162.52
+  ★ Melhor modelo V3: SARIMAX (WIS=6162.52)
+
+  -- Validation 4 --
+  Treino : 2010-01-03 → 2025-06-15 (807 sem)
+  Gap    : 16 semanas
+  Target : 2025-10-05 → 2026-03-08 (23 sem)
+  ARIMA: SARIMA(2, 0, 0)x(1, 0, 0, 52) AICc=-179.8
+    MAE=488.3  RMSE=709.3  MAPE=24.7%  WIS=2780.43
+  ETS: trend=None  seasonal=None  damped=False  AICc=-869.9
+    MAE=1133.3  RMSE=1228.1  MAPE=86.6%  WIS=5155.61
+  SARIMAX: ordem(2, 0, 0)  AICc=370.5
+    MAE=1698.5  RMSE=2289.5  MAPE=93.3%  WIS=2199.23
+  ★ Melhor modelo V4: SARIMAX (WIS=2199.23)
+
+======================================================================
+UF: MS  (uf_code=50)
+======================================================================
+Breusch-Pagan p=0.0000 → log1p
+KPSS d sugerido = 0
+
+  -- Validation 1 --
+  Treino : 2010-01-03 → 2022-06-19 (651 sem)
+  Gap    : 16 semanas
+  Target : 2022-10-09 → 2023-10-01 (52 sem)
+  ARIMA: SARIMA(1, 0, 0)x(1, 0, 0, 52) AICc=310.8
+    MAE=693.1  RMSE=1078.7  MAPE=107.4%  WIS=1397.98
+  ETS: trend=None  seasonal=None  damped=False  AICc=-774.5
+    MAE=788.0  RMSE=1077.8  MAPE=237.6%  WIS=1657.13
+  SARIMAX: ordem(1, 0, 0)  AICc=535.4
+    MAE=730.0  RMSE=1130.2  MAPE=73.1%  WIS=709.38
+  ★ Melhor modelo V1: SARIMAX (WIS=709.38)
+
+  -- Validation 2 --
+  Treino : 2010-01-03 → 2023-06-18 (703 sem)
+  Gap    : 16 semanas
+  Target : 2023-10-08 → 2024-09-29 (52 sem)
+  ARIMA: SARIMA(1, 0, 0)x(1, 0, 0, 52) AICc=339.3
+    MAE=244.9  RMSE=288.0  MAPE=280.2%  WIS=1183.24
+  ETS: trend=None  seasonal=None  damped=False  AICc=-831.8
+    MAE=507.8  RMSE=551.9  MAPE=860.2%  WIS=1904.59
+  SARIMAX: ordem(1, 0, 0)  AICc=510.5
+    MAE=320.7  RMSE=440.2  MAPE=198.9%  WIS=1122.81
+  ★ Melhor modelo V2: SARIMAX (WIS=1122.81)
+
+  -- Validation 3 --
+  Treino : 2010-01-03 → 2024-06-16 (755 sem)
+  Gap    : 16 semanas
+  Target : 2024-10-06 → 2025-09-28 (52 sem)
+  ARIMA: SARIMA(1, 0, 0)x(1, 0, 0, 52) AICc=343.4
+    MAE=147.7  RMSE=178.1  MAPE=139.9%  WIS=732.54
+  ETS: trend=None  seasonal=None  damped=False  AICc=-901.1
+    MAE=233.5  RMSE=254.2  MAPE=317.5%  WIS=817.88
+  SARIMAX: ordem(1, 0, 0)  AICc=528.2
+    MAE=158.0  RMSE=198.0  MAPE=125.2%  WIS=560.77
+  ★ Melhor modelo V3: SARIMAX (WIS=560.77)
+
+  -- Validation 4 --
+  Treino : 2010-01-03 → 2025-06-15 (807 sem)
+  Gap    : 16 semanas
+  Target : 2025-10-05 → 2026-03-08 (23 sem)
+  ARIMA: SARIMA(1, 0, 0)x(1, 0, 0, 52) AICc=353.6
+    MAE=104.0  RMSE=113.7  MAPE=149.4%  WIS=487.80
+  ETS: trend=None  seasonal=None  damped=False  AICc=-965.2
+    MAE=255.6  RMSE=266.2  MAPE=407.5%  WIS=678.91
+  SARIMAX: ordem(1, 0, 0)  AICc=499.1
+    MAE=160.8  RMSE=216.4  MAPE=214.0%  WIS=302.37
+  ★ Melhor modelo V4: SARIMAX (WIS=302.37)
+
+======================================================================
+UF: MT  (uf_code=51)
+======================================================================
+Breusch-Pagan p=0.0399 → log1p
+KPSS d sugerido = 0
+
+  -- Validation 1 --
+  Treino : 2010-01-03 → 2022-06-19 (651 sem)
+  Gap    : 16 semanas
+  Target : 2022-10-09 → 2023-10-01 (52 sem)
+  ARIMA: SARIMA(2, 0, 0)x(1, 0, 1, 52) AICc=26.0
+    MAE=242.2  RMSE=342.8  MAPE=42.8%  WIS=529.13
+  ETS: trend=None  seasonal=None  damped=False  AICc=-1179.2
+    MAE=396.0  RMSE=438.1  MAPE=155.5%  WIS=817.18
+  SARIMAX: ordem(2, 0, 0)  AICc=108.2
+    MAE=259.5  RMSE=355.2  MAPE=57.4%  WIS=421.90
+  ★ Melhor modelo V1: SARIMAX (WIS=421.90)
+
+  -- Validation 2 --
+  Treino : 2010-01-03 → 2023-06-18 (703 sem)
+  Gap    : 16 semanas
+  Target : 2023-10-08 → 2024-09-29 (52 sem)
+  ARIMA: SARIMA(2, 0, 0)x(1, 0, 1, 52) AICc=3.8
+    MAE=461.5  RMSE=672.6  MAPE=55.0%  WIS=647.55
+  ETS: trend=None  seasonal=None  damped=False  AICc=-1270.3
+    MAE=623.4  RMSE=760.4  MAPE=159.9%  WIS=910.17
+  SARIMAX: ordem(2, 0, 0)  AICc=112.2
+    MAE=483.7  RMSE=665.6  MAPE=80.4%  WIS=612.84
+  ★ Melhor modelo V2: SARIMAX (WIS=612.84)
+
+  -- Validation 3 --
+  Treino : 2010-01-03 → 2024-06-16 (755 sem)
+  Gap    : 16 semanas
+  Target : 2024-10-06 → 2025-09-28 (52 sem)
+  ARIMA: SARIMA(1, 0, 1)x(1, 0, 1, 52) AICc=-4.4
+    MAE=293.3  RMSE=360.3  MAPE=86.0%  WIS=1172.83
+  ETS: trend=None  seasonal=None  damped=False  AICc=-1349.9
+    MAE=585.3  RMSE=682.4  MAPE=274.0%  WIS=1590.77
+  SARIMAX: ordem(1, 0, 1)  AICc=135.3
+    MAE=253.0  RMSE=373.7  MAPE=51.0%  WIS=540.52
+  ★ Melhor modelo V3: SARIMAX (WIS=540.52)
+
+  -- Validation 4 --
+  Treino : 2010-01-03 → 2025-06-15 (807 sem)
+  Gap    : 16 semanas
+  Target : 2025-10-05 → 2026-03-08 (23 sem)
+  ARIMA: SARIMA(1, 0, 0)x(1, 0, 1, 52) AICc=15.2
+    MAE=169.8  RMSE=219.9  MAPE=62.4%  WIS=463.87
+  ETS: trend=None  seasonal=None  damped=False  AICc=-1421.9
+    MAE=423.5  RMSE=441.5  MAPE=192.0%  WIS=808.08
+  SARIMAX: ordem(1, 0, 0)  AICc=123.0
+    MAE=287.0  RMSE=330.3  MAPE=98.9%  WIS=398.21
+  ★ Melhor modelo V4: SARIMAX (WIS=398.21)
+
+======================================================================
+UF: PA  (uf_code=15)
+======================================================================
+Breusch-Pagan p=0.7503 → nível
+KPSS d sugerido = 0
+
+  -- Validation 1 --
+  Treino : 2010-01-03 → 2022-06-19 (651 sem)
+  Gap    : 16 semanas
+  Target : 2022-10-09 → 2023-10-01 (52 sem)
+  ARIMA: SARIMA(1, 0, 1)x(1, 0, 0, 52) AICc=7041.5
+    MAE=78.9  RMSE=89.9  MAPE=186.1%  WIS=185.71
+  ETS: trend=None  seasonal=None  damped=False  AICc=5764.8
+    MAE=63.8  RMSE=78.5  MAPE=114.7%  WIS=190.62
+  SARIMAX: ordem(1, 0, 1)  AICc=7074.1
+    MAE=98.3  RMSE=112.9  MAPE=162.3%  WIS=150.76
+  ★ Melhor modelo V1: SARIMAX (WIS=150.76)
+
+  -- Validation 2 --
+  Treino : 2010-01-03 → 2023-06-18 (703 sem)
+  Gap    : 16 semanas
+  Target : 2023-10-08 → 2024-09-29 (52 sem)
+  ARIMA: SARIMA(1, 0, 1)x(1, 0, 0, 52) AICc=7563.1
+    MAE=273.5  RMSE=429.2  MAPE=74.4%  WIS=336.96
+  ETS: trend=None  seasonal=None  damped=False  AICc=6187.8
+    MAE=306.9  RMSE=465.1  MAPE=75.2%  WIS=361.18
+  SARIMAX: ordem(1, 0, 1)  AICc=7595.0
+    MAE=350.5  RMSE=467.4  MAPE=102.9%  WIS=357.06
+  ★ Melhor modelo V2: ARIMA (WIS=336.96)
+
+  -- Validation 3 --
+  Treino : 2010-01-03 → 2024-06-16 (755 sem)
+  Gap    : 16 semanas
+  Target : 2024-10-06 → 2025-09-28 (52 sem)
+  ARIMA: SARIMA(2, 0, 1)x(1, 0, 0, 52) AICc=8200.1
+    MAE=145.9  RMSE=223.3  MAPE=30.9%  WIS=255.43
+  ETS: trend=None  seasonal=None  damped=False  AICc=6845.3
+    MAE=195.6  RMSE=224.4  MAPE=80.5%  WIS=256.15
+  SARIMAX: ordem(2, 0, 1)  AICc=8441.5
+    MAE=207.0  RMSE=241.9  MAPE=65.9%  WIS=235.31
+  ★ Melhor modelo V3: SARIMAX (WIS=235.31)
+
+  -- Validation 4 --
+  Treino : 2010-01-03 → 2025-06-15 (807 sem)
+  Gap    : 16 semanas
+  Target : 2025-10-05 → 2026-03-08 (23 sem)
+  ARIMA: SARIMA(2, 0, 1)x(1, 0, 0, 52) AICc=8770.6
+    MAE=68.6  RMSE=94.1  MAPE=40.0%  WIS=215.43
+  ETS: trend=None  seasonal=None  damped=False  AICc=7351.7
+    MAE=120.3  RMSE=130.3  MAPE=76.5%  WIS=198.39
+  SARIMAX: ordem(2, 0, 1)  AICc=9082.9
+    MAE=678.5  RMSE=974.5  MAPE=275.7%  WIS=725.94
+  ★ Melhor modelo V4: ETS (WIS=198.39)
+
+======================================================================
+UF: PB  (uf_code=25)
+======================================================================
+Breusch-Pagan p=0.6631 → nível
+KPSS d sugerido = 0
+
+  -- Validation 1 --
+  Treino : 2010-01-03 → 2022-06-19 (651 sem)
+  Gap    : 16 semanas
+  Target : 2022-10-09 → 2023-10-01 (52 sem)
+  ARIMA: SARIMA(2, 0, 2)x(0, 0, 0, 52) AICc=7417.1
+    MAE=169.0  RMSE=196.2  MAPE=154.9%  WIS=400.94
+  ETS: trend=None  seasonal=None  damped=False  AICc=6419.4
+    MAE=1150.6  RMSE=1153.9  MAPE=1145.1%  WIS=1100.16
+  SARIMAX: ordem(2, 0, 2)  AICc=7654.1
+    MAE=6626.2  RMSE=8020.9  MAPE=5582.1%  WIS=6465.23
+  ★ Melhor modelo V1: ARIMA (WIS=400.94)
+
+  -- Validation 2 --
+  Treino : 2010-01-03 → 2023-06-18 (703 sem)
+  Gap    : 16 semanas
+  Target : 2023-10-08 → 2024-09-29 (52 sem)
+  ARIMA: SARIMA(2, 0, 2)x(0, 0, 1, 52) AICc=7972.8
+    MAE=201.7  RMSE=271.0  MAPE=118.8%  WIS=398.36
+  ETS: trend=None  seasonal=None  damped=False  AICc=6934.2
+    MAE=179.7  RMSE=291.0  MAPE=71.4%  WIS=360.37
+  SARIMAX: ordem(2, 0, 2)  AICc=8234.7
+    MAE=1750.7  RMSE=2416.3  MAPE=1089.2%  WIS=1899.94
+  ★ Melhor modelo V2: ETS (WIS=360.37)
+
+  -- Validation 3 --
+  Treino : 2010-01-03 → 2024-06-16 (755 sem)
+  Gap    : 16 semanas
+  Target : 2024-10-06 → 2025-09-28 (52 sem)
+  ARIMA: SARIMA(2, 0, 2)x(0, 0, 1, 52) AICc=8587.4
+    MAE=114.3  RMSE=122.1  MAPE=85.9%  WIS=366.43
+  ETS: trend=None  seasonal=None  damped=False  AICc=7469.9
+    MAE=116.3  RMSE=125.8  MAPE=89.5%  WIS=332.66
+  SARIMAX: ordem(2, 0, 2)  AICc=8710.8
+    MAE=177.6  RMSE=217.9  MAPE=105.5%  WIS=417.01
+  ★ Melhor modelo V3: ETS (WIS=332.66)
+
+  -- Validation 4 --
+  Treino : 2010-01-03 → 2025-06-15 (807 sem)
+  Gap    : 16 semanas
+  Target : 2025-10-05 → 2026-03-08 (23 sem)
+  ARIMA: SARIMA(2, 0, 2)x(0, 0, 0, 52) AICc=9146.0
+    MAE=171.0  RMSE=177.8  MAPE=189.8%  WIS=361.55
+  ETS: trend=None  seasonal=None  damped=False  AICc=7936.3
+    MAE=77.5  RMSE=82.3  MAPE=87.2%  WIS=268.60
+  SARIMAX: ordem(2, 0, 2)  AICc=9301.9
+    MAE=441.1  RMSE=525.6  MAPE=457.8%  WIS=500.18
+  ★ Melhor modelo V4: ETS (WIS=268.60)
+
+======================================================================
+UF: PE  (uf_code=26)
+======================================================================
+Breusch-Pagan p=0.0011 → log1p
+KPSS d sugerido = 0
+
+  -- Validation 1 --
+  Treino : 2010-01-03 → 2022-06-19 (651 sem)
+  Gap    : 16 semanas
+  Target : 2022-10-09 → 2023-10-01 (52 sem)
+  ARIMA: SARIMA(1, 0, 0)x(1, 0, 1, 52) AICc=-150.8
+    MAE=170.9  RMSE=188.6  MAPE=184.1%  WIS=486.96
+  ETS: trend=None  seasonal=None  damped=False  AICc=-1270.7
+    MAE=430.5  RMSE=441.8  MAPE=534.2%  WIS=790.24
+  SARIMAX: ordem(1, 0, 0)  AICc=-33.7
+    MAE=240.3  RMSE=296.4  MAPE=189.1%  WIS=493.00
+  ★ Melhor modelo V1: ARIMA (WIS=486.96)
+
+  -- Validation 2 --
+  Treino : 2010-01-03 → 2023-06-18 (703 sem)
+  Gap    : 16 semanas
+  Target : 2023-10-08 → 2024-09-29 (52 sem)
+  ARIMA: SARIMA(1, 0, 0)x(1, 0, 1, 52) AICc=-120.2
+    MAE=362.6  RMSE=524.6  MAPE=52.9%  WIS=371.81
+  ETS: trend=None  seasonal=None  damped=False  AICc=-1336.6
+    MAE=379.1  RMSE=549.3  MAPE=57.7%  WIS=383.73
+  SARIMAX: ordem(1, 0, 0)  AICc=-15.8
+    MAE=284.3  RMSE=397.7  MAPE=53.7%  WIS=380.06
+  ★ Melhor modelo V2: ARIMA (WIS=371.81)
+
+  -- Validation 3 --
+  Treino : 2010-01-03 → 2024-06-16 (755 sem)
+  Gap    : 16 semanas
+  Target : 2024-10-06 → 2025-09-28 (52 sem)
+  ARIMA: SARIMA(1, 0, 0)x(1, 0, 1, 52) AICc=-122.8
+    MAE=114.1  RMSE=152.0  MAPE=27.3%  WIS=563.13
+  ETS: trend=None  seasonal=None  damped=False  AICc=-1423.2
+    MAE=302.9  RMSE=344.1  MAPE=101.4%  WIS=951.87
+  SARIMAX: ordem(1, 0, 0)  AICc=-54.4
+    MAE=161.9  RMSE=241.2  MAPE=32.4%  WIS=365.65
+  ★ Melhor modelo V3: SARIMAX (WIS=365.65)
+
+  -- Validation 4 --
+  Treino : 2010-01-03 → 2025-06-15 (807 sem)
+  Gap    : 16 semanas
+  Target : 2025-10-05 → 2026-03-08 (23 sem)
+  ARIMA: SARIMA(1, 0, 0)x(1, 0, 1, 52) AICc=-150.7
+    MAE=132.3  RMSE=162.1  MAPE=37.5%  WIS=321.72
+  ETS: trend=None  seasonal=None  damped=False  AICc=-1557.2
+    MAE=141.4  RMSE=167.2  MAPE=54.8%  WIS=436.49
+  SARIMAX: ordem(1, 0, 0)  AICc=-48.4
+    MAE=227.0  RMSE=265.0  MAPE=66.9%  WIS=463.90
+  ★ Melhor modelo V4: ARIMA (WIS=321.72)
+
+======================================================================
+UF: PI  (uf_code=22)
+======================================================================
+Breusch-Pagan p=0.0041 → log1p
+KPSS d sugerido = 0
+
+  -- Validation 1 --
+  Treino : 2010-01-03 → 2022-06-19 (651 sem)
+  Gap    : 16 semanas
+  Target : 2022-10-09 → 2023-10-01 (52 sem)
+  ARIMA: SARIMA(1, 0, 2)x(1, 0, 1, 52) AICc=471.5
+    MAE=49.0  RMSE=55.5  MAPE=187.5%  WIS=237.26
+  ETS: trend=None  seasonal=None  damped=False  AICc=-894.5
+    MAE=845.8  RMSE=856.6  MAPE=4673.1%  WIS=2259.35
+  SARIMAX: ordem(1, 0, 2)  AICc=558.0
+    MAE=53.0  RMSE=70.0  MAPE=183.3%  WIS=109.87
+  ★ Melhor modelo V1: SARIMAX (WIS=109.87)
+
+  -- Validation 2 --
+  Treino : 2010-01-03 → 2023-06-18 (703 sem)
+  Gap    : 16 semanas
+  Target : 2023-10-08 → 2024-09-29 (52 sem)
+  ARIMA: SARIMA(1, 0, 1)x(1, 0, 1, 52) AICc=564.5
+    MAE=188.0  RMSE=290.0  MAPE=51.4%  WIS=194.68
+  ETS: trend=None  seasonal=None  damped=False  AICc=-896.6
+    MAE=244.7  RMSE=286.3  MAPE=315.6%  WIS=574.25
+  SARIMAX: ordem(1, 0, 1)  AICc=649.4
+    MAE=214.6  RMSE=312.4  MAPE=64.9%  WIS=178.64
+  ★ Melhor modelo V2: SARIMAX (WIS=178.64)
+
+  -- Validation 3 --
+  Treino : 2010-01-03 → 2024-06-16 (755 sem)
+  Gap    : 16 semanas
+  Target : 2024-10-06 → 2025-09-28 (52 sem)
+  ARIMA: SARIMA(1, 0, 1)x(1, 0, 1, 52) AICc=580.2
+    MAE=55.0  RMSE=78.5  MAPE=34.8%  WIS=166.86
+  ETS: trend=None  seasonal=None  damped=False  AICc=-960.4
+    MAE=279.2  RMSE=308.7  MAPE=466.5%  WIS=1095.81
+  SARIMAX: ordem(1, 0, 1)  AICc=654.3
+    MAE=70.2  RMSE=87.3  MAPE=44.6%  WIS=117.16
+  ★ Melhor modelo V3: SARIMAX (WIS=117.16)
+
+  -- Validation 4 --
+  Treino : 2010-01-03 → 2025-06-15 (807 sem)
+  Gap    : 16 semanas
+  Target : 2025-10-05 → 2026-03-08 (23 sem)
+  ARIMA: SARIMA(1, 0, 2)x(1, 0, 0, 52) AICc=611.8
+    MAE=40.5  RMSE=62.9  MAPE=32.7%  WIS=145.73
+  ETS: trend=None  seasonal=None  damped=False  AICc=-1040.4
+    MAE=162.5  RMSE=179.6  MAPE=254.2%  WIS=450.92
+  SARIMAX: ordem(1, 0, 2)  AICc=620.6
+    MAE=27685.0  RMSE=44563.5  MAPE=17254.4%  WIS=38023.93
+  ★ Melhor modelo V4: ARIMA (WIS=145.73)
+
+======================================================================
+UF: PR  (uf_code=41)
+======================================================================
+Breusch-Pagan p=0.0000 → log1p
+KPSS d sugerido = 1
+
+  -- Validation 1 --
+  Treino : 2010-01-03 → 2022-06-19 (651 sem)
+  Gap    : 16 semanas
+  Target : 2022-10-09 → 2023-10-01 (52 sem)
+  ARIMA: SARIMA(2, 1, 2)x(1, 0, 1, 52) AICc=219.6
+    MAE=3046.8  RMSE=5747.6  MAPE=77.1%  WIS=388542.26
+  ETS: trend=None  seasonal=None  damped=False  AICc=-550.6
+    MAE=4046.0  RMSE=5984.3  MAPE=271.3%  WIS=12345.76
+  SARIMAX: ordem(2, 1, 2)  AICc=184.1
+    MAE=4816.4  RMSE=7762.8  MAPE=317.6%  WIS=57082.82
+  ★ Melhor modelo V1: ETS (WIS=12345.76)
+
+  -- Validation 2 --
+  Treino : 2010-01-03 → 2023-06-18 (703 sem)
+  Gap    : 16 semanas
+  Target : 2023-10-08 → 2024-09-29 (52 sem)
+  ARIMA: SARIMA(2, 1, 2)x(1, 0, 0, 52) AICc=173.2
+    MAE=10804.1  RMSE=17327.2  MAPE=74.8%  WIS=11975.14
+  ETS: trend=None  seasonal=None  damped=False  AICc=-599.8
+    MAE=11791.6  RMSE=18161.4  MAPE=235.8%  WIS=17244.67
+  SARIMAX: ordem(2, 1, 2)  AICc=168.5
+    MAE=5817.5  RMSE=10447.2  MAPE=59.1%  WIS=62303.80
+  ★ Melhor modelo V2: ARIMA (WIS=11975.14)
+
+  -- Validation 3 --
+  Treino : 2010-01-03 → 2024-06-16 (755 sem)
+  Gap    : 16 semanas
+  Target : 2024-10-06 → 2025-09-28 (52 sem)
+  ARIMA: SARIMA(2, 1, 2)x(1, 0, 0, 52) AICc=154.4
+    MAE=11103.7  RMSE=15655.6  MAPE=612.9%  WIS=55845.70
+  ETS: trend=None  seasonal=None  damped=False  AICc=-652.6
+    MAE=9067.2  RMSE=9421.0  MAPE=1933.0%  WIS=35791.79
+  SARIMAX: ordem(2, 1, 2)  AICc=146.4
+    MAE=27307.1  RMSE=41755.5  MAPE=1286.2%  WIS=212087.36
+  ★ Melhor modelo V3: ETS (WIS=35791.79)
+
+  -- Validation 4 --
+  Treino : 2010-01-03 → 2025-06-15 (807 sem)
+  Gap    : 16 semanas
+  Target : 2025-10-05 → 2026-03-08 (23 sem)
+  ARIMA: SARIMA(2, 1, 2)x(0, 0, 1, 52) AICc=131.6
+    MAE=688.2  RMSE=897.9  MAPE=120.5%  WIS=3943.47
+  ETS: trend=None  seasonal=None  damped=False  AICc=-706.0
+    MAE=912.1  RMSE=945.7  MAPE=199.5%  WIS=3561.42
+  SARIMAX: ordem(2, 1, 2)  AICc=117.7
+    MAE=483.6  RMSE=631.9  MAPE=77.7%  WIS=2068.84
+  ★ Melhor modelo V4: SARIMAX (WIS=2068.84)
+
+======================================================================
+UF: RJ  (uf_code=33)
+======================================================================
+Breusch-Pagan p=0.3889 → nível
+KPSS d sugerido = 0
+
+  -- Validation 1 --
+  Treino : 2010-01-03 → 2022-06-19 (651 sem)
+  Gap    : 16 semanas
+  Target : 2022-10-09 → 2023-10-01 (52 sem)
+  ARIMA: SARIMA(2, 0, 0)x(0, 0, 0, 52) AICc=9735.5
+    MAE=700.3  RMSE=770.6  MAPE=427.7%  WIS=2918.74
+  ETS: trend=None  seasonal=None  damped=False  AICc=9249.3
+    MAE=548.3  RMSE=753.3  MAPE=148.9%  WIS=2734.99
+  SARIMAX: ordem(2, 0, 0)  AICc=10206.6
+    MAE=1027.0  RMSE=1177.7  MAPE=262.7%  WIS=2430.43
+  ★ Melhor modelo V1: SARIMAX (WIS=2430.43)
+
+  -- Validation 2 --
+  Treino : 2010-01-03 → 2023-06-18 (703 sem)
+  Gap    : 16 semanas
+  Target : 2023-10-08 → 2024-09-29 (52 sem)
+  ARIMA: SARIMA(2, 0, 0)x(0, 0, 0, 52) AICc=10467.1
+    MAE=5440.2  RMSE=9395.0  MAPE=90.4%  WIS=6573.87
+  ETS: trend=None  seasonal=None  damped=False  AICc=9936.2
+    MAE=5409.9  RMSE=9283.5  MAPE=104.1%  WIS=6359.80
+  SARIMAX: ordem(2, 0, 0)  AICc=10954.3
+    MAE=5722.7  RMSE=8919.9  MAPE=143.1%  WIS=6122.50
+  ★ Melhor modelo V2: SARIMAX (WIS=6122.50)
+
+  -- Validation 3 --
+  Treino : 2010-01-03 → 2024-06-16 (755 sem)
+  Gap    : 16 semanas
+  Target : 2024-10-06 → 2025-09-28 (52 sem)
+  ARIMA: SARIMA(2, 0, 2)x(0, 0, 0, 52) AICc=11710.9
+    MAE=921.3  RMSE=1022.2  MAPE=359.2%  WIS=3781.27
+  ETS: trend=None  seasonal=None  damped=False  AICc=11149.3
+    MAE=2830.8  RMSE=2879.9  MAPE=940.1%  WIS=3997.29
+  SARIMAX: ordem(2, 0, 2)  AICc=12354.1
+    MAE=1076.4  RMSE=1447.2  MAPE=210.5%  WIS=3358.91
+  ★ Melhor modelo V3: SARIMAX (WIS=3358.91)
+
+  -- Validation 4 --
+  Treino : 2010-01-03 → 2025-06-15 (807 sem)
+  Gap    : 16 semanas
+  Target : 2025-10-05 → 2026-03-08 (23 sem)
+  ARIMA: SARIMA(2, 0, 2)x(0, 0, 0, 52) AICc=12467.4
+    MAE=1413.0  RMSE=1417.9  MAPE=1008.2%  WIS=3717.56
+  ETS: trend=None  seasonal=None  damped=False  AICc=11869.9
+    MAE=379.8  RMSE=388.8  MAPE=280.8%  WIS=3036.40
+  SARIMAX: ordem(2, 0, 2)  AICc=13101.6
+    MAE=21641.9  RMSE=32016.5  MAPE=11649.8%  WIS=22694.31
+  ★ Melhor modelo V4: ETS (WIS=3036.40)
+
+======================================================================
+UF: RN  (uf_code=24)
+======================================================================
+Breusch-Pagan p=0.4275 → nível
+KPSS d sugerido = 0
+
+  -- Validation 1 --
+  Treino : 2010-01-03 → 2022-06-19 (651 sem)
+  Gap    : 16 semanas
+  Target : 2022-10-09 → 2023-10-01 (52 sem)
+  ARIMA: SARIMA(2, 0, 2)x(1, 0, 0, 52) AICc=8056.4
+    MAE=327.6  RMSE=338.6  MAPE=540.8%  WIS=703.68
+  ETS: trend=None  seasonal=None  damped=False  AICc=7482.4
+    MAE=2071.9  RMSE=2074.5  MAPE=3287.4%  WIS=1972.26
+  SARIMAX: ordem(2, 0, 2)  AICc=8419.1
+    MAE=277.4  RMSE=336.3  MAPE=255.2%  WIS=633.78
+  ★ Melhor modelo V1: SARIMAX (WIS=633.78)
+
+  -- Validation 2 --
+  Treino : 2010-01-03 → 2023-06-18 (703 sem)
+  Gap    : 16 semanas
+  Target : 2023-10-08 → 2024-09-29 (52 sem)
+  ARIMA: SARIMA(2, 0, 2)x(1, 0, 0, 52) AICc=8660.1
+    MAE=272.0  RMSE=328.7  MAPE=131.6%  WIS=688.07
+  ETS: trend=None  seasonal=None  damped=False  AICc=8059.4
+    MAE=216.8  RMSE=372.2  MAPE=49.1%  WIS=761.98
+  SARIMAX: ordem(2, 0, 2)  AICc=9079.8
+    MAE=181.9  RMSE=223.1  MAPE=84.0%  WIS=607.24
+  ★ Melhor modelo V2: SARIMAX (WIS=607.24)
+
+  -- Validation 3 --
+  Treino : 2010-01-03 → 2024-06-16 (755 sem)
+  Gap    : 16 semanas
+  Target : 2024-10-06 → 2025-09-28 (52 sem)
+  ARIMA: SARIMA(2, 0, 2)x(1, 0, 0, 52) AICc=9276.8
+    MAE=210.9  RMSE=222.8  MAPE=146.7%  WIS=657.57
+  ETS: trend=None  seasonal=None  damped=False  AICc=8623.8
+    MAE=114.3  RMSE=132.5  MAPE=88.3%  WIS=700.26
+  SARIMAX: ordem(2, 0, 2)  AICc=9694.4
+    MAE=199.6  RMSE=250.7  MAPE=117.7%  WIS=592.83
+  ★ Melhor modelo V3: SARIMAX (WIS=592.83)
+
+  -- Validation 4 --
+  Treino : 2010-01-03 → 2025-06-15 (807 sem)
+  Gap    : 16 semanas
+  Target : 2025-10-05 → 2026-03-08 (23 sem)
+  ARIMA: SARIMA(2, 0, 2)x(1, 0, 0, 52) AICc=9867.2
+    MAE=243.4  RMSE=247.8  MAPE=251.4%  WIS=643.12
+  ETS: trend=None  seasonal=None  damped=False  AICc=9164.9
+    MAE=78.6  RMSE=84.7  MAPE=87.0%  WIS=592.84
+  SARIMAX: ordem(2, 0, 2)  AICc=10310.4
+    MAE=334.8  RMSE=454.8  MAPE=277.4%  WIS=624.29
+  ★ Melhor modelo V4: ETS (WIS=592.84)
+
+======================================================================
+UF: RO  (uf_code=11)
+======================================================================
+Breusch-Pagan p=0.0001 → log1p
+KPSS d sugerido = 0
+
+  -- Validation 1 --
+  Treino : 2010-01-03 → 2022-06-19 (651 sem)
+  Gap    : 16 semanas
+  Target : 2022-10-09 → 2023-10-01 (52 sem)
+  ARIMA: SARIMA(1, 0, 1)x(1, 0, 0, 52) AICc=614.4
+    MAE=168.8  RMSE=267.2  MAPE=87.2%  WIS=334.30
+  ETS: trend=None  seasonal=None  damped=False  AICc=-905.4
+    MAE=203.8  RMSE=260.3  MAPE=232.2%  WIS=485.46
+  SARIMAX: ordem(1, 0, 1)  AICc=661.5
+    MAE=193.8  RMSE=293.3  MAPE=68.5%  WIS=162.10
+  ★ Melhor modelo V1: SARIMAX (WIS=162.10)
+
+  -- Validation 2 --
+  Treino : 2010-01-03 → 2023-06-18 (703 sem)
+  Gap    : 16 semanas
+  Target : 2023-10-08 → 2024-09-29 (52 sem)
+  ARIMA: SARIMA(2, 0, 2)x(0, 0, 1, 52) AICc=609.8
+    MAE=81.5  RMSE=148.9  MAPE=133.9%  WIS=159.05
+  ETS: trend=None  seasonal=None  damped=False  AICc=-991.9
+    MAE=97.7  RMSE=147.0  MAPE=265.1%  WIS=197.78
+  SARIMAX: ordem(2, 0, 2)  AICc=859.5
+    MAE=inf  RMSE=inf  MAPE=inf%  WIS=nan
+  ★ Melhor modelo V2: ARIMA (WIS=159.05)
+
+  -- Validation 3 --
+  Treino : 2010-01-03 → 2024-06-16 (755 sem)
+  Gap    : 16 semanas
+  Target : 2024-10-06 → 2025-09-28 (52 sem)
+  ARIMA: SARIMA(2, 0, 0)x(1, 0, 1, 52) AICc=671.8
+    MAE=30.3  RMSE=36.3  MAPE=114.9%  WIS=125.53
+  ETS: trend=None  seasonal=None  damped=False  AICc=-1039.9
+    MAE=30.4  RMSE=39.0  MAPE=94.2%  WIS=74.34
+  SARIMAX: ordem(2, 0, 0)  AICc=752.9
+    MAE=42.3  RMSE=52.7  MAPE=146.9%  WIS=85.53
+  ★ Melhor modelo V3: ETS (WIS=74.34)
+
+  -- Validation 4 --
+  Treino : 2010-01-03 → 2025-06-15 (807 sem)
+  Gap    : 16 semanas
+  Target : 2025-10-05 → 2026-03-08 (23 sem)
+  ARIMA: SARIMA(2, 0, 0)x(1, 0, 0, 52) AICc=716.1
+    MAE=21.1  RMSE=26.8  MAPE=384.1%  WIS=108.39
+  ETS: trend=None  seasonal=None  damped=False  AICc=-1128.3
+    MAE=43.2  RMSE=47.6  MAPE=509.2%  WIS=127.16
+  SARIMAX: ordem(2, 0, 0)  AICc=804.1
+    MAE=813.2  RMSE=1201.9  MAPE=2229.1%  WIS=1452.07
+  ★ Melhor modelo V4: ARIMA (WIS=108.39)
+
+======================================================================
+UF: RR  (uf_code=14)
+======================================================================
+Breusch-Pagan p=0.0000 → log1p
+KPSS d sugerido = 1
+
+  -- Validation 1 --
+  Treino : 2010-01-03 → 2022-06-19 (651 sem)
+  Gap    : 16 semanas
+  Target : 2022-10-09 → 2023-10-01 (52 sem)
+  ARIMA: SARIMA(0, 1, 1)x(0, 0, 0, 52) AICc=945.4
+    MAE=3.4  RMSE=6.2  MAPE=68.3%  WIS=8.84
+  ETS: trend=None  seasonal=None  damped=False  AICc=-860.6
+    MAE=3.4  RMSE=6.1  MAPE=65.0%  WIS=4.32
+  SARIMAX: ordem(0, 1, 1)  AICc=983.1
+    MAE=3.1  RMSE=5.8  MAPE=62.9%  WIS=14.00
+  ★ Melhor modelo V1: ETS (WIS=4.32)
+
+  -- Validation 2 --
+  Treino : 2010-01-03 → 2023-06-18 (703 sem)
+  Gap    : 16 semanas
+  Target : 2023-10-08 → 2024-09-29 (52 sem)
+  ARIMA: SARIMA(0, 1, 1)x(1, 0, 1, 52) AICc=1037.2
+    MAE=10.5  RMSE=14.2  MAPE=74.0%  WIS=17.59
+  ETS: trend=None  seasonal=None  damped=False  AICc=-917.7
+    MAE=10.4  RMSE=14.1  MAPE=72.2%  WIS=10.21
+  SARIMAX: ordem(0, 1, 1)  AICc=1077.1
+    MAE=9.3  RMSE=12.8  MAPE=64.3%  WIS=26.35
+  ★ Melhor modelo V2: ETS (WIS=10.21)
+
+  -- Validation 3 --
+  Treino : 2010-01-03 → 2024-06-16 (755 sem)
+  Gap    : 16 semanas
+  Target : 2024-10-06 → 2025-09-28 (52 sem)
+  ARIMA: SARIMA(0, 1, 1)x(1, 0, 1, 52) AICc=1157.0
+    MAE=21.8  RMSE=22.5  MAPE=403.9%  WIS=163.55
+  ETS: trend=None  seasonal=None  damped=False  AICc=-942.0
+    MAE=19.0  RMSE=19.5  MAPE=350.0%  WIS=67.19
+  SARIMAX: ordem(0, 1, 1)  AICc=1192.5
+    MAE=32.1  RMSE=34.2  MAPE=490.9%  WIS=255.57
+  ★ Melhor modelo V3: ETS (WIS=67.19)
+
+  -- Validation 4 --
+  Treino : 2010-01-03 → 2025-06-15 (807 sem)
+  Gap    : 16 semanas
+  Target : 2025-10-05 → 2026-03-08 (23 sem)
+  ARIMA: SARIMA(0, 1, 1)x(0, 0, 0, 52) AICc=1213.0
+    MAE=7.5  RMSE=8.1  MAPE=168.3%  WIS=46.18
+  ETS: trend=None  seasonal=None  damped=False  AICc=-1032.3
+    MAE=7.5  RMSE=8.1  MAPE=169.4%  WIS=24.08
+  SARIMAX: ordem(0, 1, 1)  AICc=1244.7
+    MAE=6.5  RMSE=8.6  MAPE=93.5%  WIS=17.58
+  ★ Melhor modelo V4: SARIMAX (WIS=17.58)
+
+======================================================================
+UF: RS  (uf_code=43)
+======================================================================
+Breusch-Pagan p=0.0000 → log1p
+KPSS d sugerido = 1
+
+  -- Validation 1 --
+  Treino : 2010-01-03 → 2022-06-19 (651 sem)
+  Gap    : 16 semanas
+  Target : 2022-10-09 → 2023-10-01 (52 sem)
+  ARIMA: SARIMA(2, 1, 0)x(1, 0, 0, 52) AICc=1222.5
+    MAE=648.1  RMSE=1086.0  MAPE=430.2%  WIS=19747.41
+  ETS: trend=None  seasonal=None  damped=False  AICc=-303.0
+    MAE=837.4  RMSE=1179.8  MAPE=1057.7%  WIS=3625.61
+  SARIMAX: ordem(2, 1, 0)  AICc=1190.8
+    MAE=753.7  RMSE=1132.4  MAPE=542.7%  WIS=10781.01
+  ★ Melhor modelo V1: ETS (WIS=3625.61)
+
+  -- Validation 2 --
+  Treino : 2010-01-03 → 2023-06-18 (703 sem)
+  Gap    : 16 semanas
+  Target : 2023-10-08 → 2024-09-29 (52 sem)
+  ARIMA: SARIMA(2, 1, 0)x(1, 0, 0, 52) AICc=1295.3
+    MAE=3987.7  RMSE=7233.8  MAPE=245.4%  WIS=37720.26
+  ETS: trend=None  seasonal=None  damped=False  AICc=-319.7
+    MAE=4185.8  RMSE=7214.5  MAPE=606.0%  WIS=7453.48
+  SARIMAX: ordem(2, 1, 0)  AICc=1264.5
+    MAE=2835.6  RMSE=5492.2  MAPE=202.0%  WIS=27159.67
+  ★ Melhor modelo V2: ETS (WIS=7453.48)
+
+  -- Validation 3 --
+  Treino : 2010-01-03 → 2024-06-16 (755 sem)
+  Gap    : 16 semanas
+  Target : 2024-10-06 → 2025-09-28 (52 sem)
+  ARIMA: SARIMA(2, 1, 2)x(1, 0, 0, 52) AICc=1335.2
+    MAE=2151.1  RMSE=2471.8  MAPE=791.7%  WIS=2219163.29
+  ETS: trend=None  seasonal=None  damped=False  AICc=-339.4
+    MAE=3417.9  RMSE=3531.9  MAPE=1703.7%  WIS=23791.55
+  SARIMAX: ordem(2, 1, 2)  AICc=1319.0
+    MAE=6051.9  RMSE=10468.7  MAPE=1134.3%  WIS=128413.44
+  ★ Melhor modelo V3: ETS (WIS=23791.55)
+
+  -- Validation 4 --
+  Treino : 2010-01-03 → 2025-06-15 (807 sem)
+  Gap    : 16 semanas
+  Target : 2025-10-05 → 2026-03-08 (23 sem)
+  ARIMA: SARIMA(2, 1, 2)x(1, 0, 0, 52) AICc=1391.7
+    MAE=71.7  RMSE=84.3  MAPE=24.9%  WIS=28254.26
+  ETS: trend=None  seasonal=None  damped=False  AICc=-368.7
+    MAE=1872.3  RMSE=1873.6  MAPE=755.5%  WIS=8526.23
+  SARIMAX: ordem(2, 1, 2)  AICc=1373.4
+    MAE=5028709.1  RMSE=9132355.3  MAPE=1456646.6%  WIS=64119798.00
+  ★ Melhor modelo V4: ETS (WIS=8526.23)
+
+======================================================================
+UF: SC  (uf_code=42)
+======================================================================
+Breusch-Pagan p=0.0000 → log1p
+KPSS d sugerido = 1
+
+  -- Validation 1 --
+  Treino : 2010-01-03 → 2022-06-19 (651 sem)
+  Gap    : 16 semanas
+  Target : 2022-10-09 → 2023-10-01 (52 sem)
+  ARIMA: SARIMA(1, 1, 2)x(1, 0, 0, 52) AICc=1184.9
+    MAE=2666.0  RMSE=4914.2  MAPE=234.6%  WIS=222001.29
+  ETS: trend=None  seasonal=None  damped=False  AICc=-382.8
+    MAE=2987.8  RMSE=4533.9  MAPE=1010.8%  WIS=8465.56
+  SARIMAX: ordem(1, 1, 2)  AICc=1186.9
+    MAE=2235.6  RMSE=3536.5  MAPE=461.7%  WIS=29950.48
+  ★ Melhor modelo V1: ETS (WIS=8465.56)
+
+  -- Validation 2 --
+  Treino : 2010-01-03 → 2023-06-18 (703 sem)
+  Gap    : 16 semanas
+  Target : 2023-10-08 → 2024-09-29 (52 sem)
+  ARIMA: SARIMA(1, 1, 2)x(1, 0, 0, 52) AICc=1245.2
+    MAE=6504.0  RMSE=11233.2  MAPE=355.1%  WIS=1013836.61
+  ETS: trend=None  seasonal=None  damped=False  AICc=-402.9
+    MAE=7402.0  RMSE=10516.6  MAPE=1003.1%  WIS=24147.27
+  SARIMAX: ordem(1, 1, 2)  AICc=1245.0
+    MAE=2931.5  RMSE=4837.1  MAPE=253.0%  WIS=104177.04
+  ★ Melhor modelo V2: ETS (WIS=24147.27)
+
+  -- Validation 3 --
+  Treino : 2010-01-03 → 2024-06-16 (755 sem)
+  Gap    : 16 semanas
+  Target : 2024-10-06 → 2025-09-28 (52 sem)
+  ARIMA: SARIMA(1, 1, 2)x(1, 0, 0, 52) AICc=1297.3
+    MAE=1674.3  RMSE=1717.9  MAPE=780.3%  WIS=1219623.86
+  ETS: trend=None  seasonal=None  damped=False  AICc=-438.4
+    MAE=5874.9  RMSE=5907.4  MAPE=2655.3%  WIS=35221.93
+  SARIMAX: ordem(1, 1, 2)  AICc=1289.8
+    MAE=6917.8  RMSE=10535.0  MAPE=1198.6%  WIS=123112.11
+  ★ Melhor modelo V3: ETS (WIS=35221.93)
+
+  -- Validation 4 --
+  Treino : 2010-01-03 → 2025-06-15 (807 sem)
+  Gap    : 16 semanas
+  Target : 2025-10-05 → 2026-03-08 (23 sem)
+  ARIMA: SARIMA(1, 1, 2)x(1, 0, 0, 52) AICc=1344.1
+    MAE=65.3  RMSE=135.0  MAPE=24.3%  WIS=13878.25
+  ETS: trend=None  seasonal=None  damped=False  AICc=-485.6
+    MAE=561.4  RMSE=577.6  MAPE=371.1%  WIS=2349.62
+  SARIMAX: ordem(1, 1, 2)  AICc=1331.4
+    MAE=189.3  RMSE=302.3  MAPE=84.4%  WIS=1693.37
+  ★ Melhor modelo V4: SARIMAX (WIS=1693.37)
+
+======================================================================
+UF: SE  (uf_code=28)
+======================================================================
+Breusch-Pagan p=0.2230 → nível
+KPSS d sugerido = 0
+
+  -- Validation 1 --
+  Treino : 2010-01-03 → 2022-06-19 (651 sem)
+  Gap    : 16 semanas
+  Target : 2022-10-09 → 2023-10-01 (52 sem)
+  ARIMA: SARIMA(1, 0, 2)x(0, 0, 0, 52) AICc=6148.1
+    MAE=32.1  RMSE=41.4  MAPE=244.9%  WIS=90.62
+  ETS: trend=None  seasonal=None  damped=False  AICc=4798.8
+    MAE=178.7  RMSE=181.4  MAPE=883.3%  WIS=167.12
+  SARIMAX: ordem(1, 0, 2)  AICc=6417.2
+    MAE=23.3  RMSE=34.3  MAPE=122.3%  WIS=82.31
+  ★ Melhor modelo V1: SARIMAX (WIS=82.31)
+
+  -- Validation 2 --
+  Treino : 2010-01-03 → 2023-06-18 (703 sem)
+  Gap    : 16 semanas
+  Target : 2023-10-08 → 2024-09-29 (52 sem)
+  ARIMA: SARIMA(1, 0, 0)x(0, 0, 0, 52) AICc=6641.8
+    MAE=25.3  RMSE=30.0  MAPE=76.0%  WIS=85.91
+  ETS: trend=None  seasonal=None  damped=False  AICc=5165.0
+    MAE=44.8  RMSE=50.9  MAPE=149.4%  WIS=93.09
+  SARIMAX: ordem(1, 0, 0)  AICc=6967.0
+    MAE=35.1  RMSE=43.4  MAPE=89.2%  WIS=81.71
+  ★ Melhor modelo V2: SARIMAX (WIS=81.71)
+
+  -- Validation 3 --
+  Treino : 2010-01-03 → 2024-06-16 (755 sem)
+  Gap    : 16 semanas
+  Target : 2024-10-06 → 2025-09-28 (52 sem)
+  ARIMA: SARIMA(2, 0, 2)x(0, 0, 0, 52) AICc=7092.7
+    MAE=40.9  RMSE=41.7  MAPE=330.9%  WIS=85.96
+  ETS: trend=None  seasonal=None  damped=False  AICc=5513.0
+    MAE=45.1  RMSE=45.9  MAPE=363.2%  WIS=91.81
+  SARIMAX: ordem(2, 0, 2)  AICc=7368.4
+    MAE=26.2  RMSE=29.8  MAPE=171.0%  WIS=77.99
+  ★ Melhor modelo V3: SARIMAX (WIS=77.99)
+
+  -- Validation 4 --
+  Treino : 2010-01-03 → 2025-06-15 (807 sem)
+  Gap    : 16 semanas
+  Target : 2025-10-05 → 2026-03-08 (23 sem)
+  ARIMA: SARIMA(2, 0, 2)x(0, 0, 0, 52) AICc=7530.9
+    MAE=31.7  RMSE=33.5  MAPE=201.4%  WIS=82.78
+  ETS: trend=None  seasonal=None  damped=False  AICc=5840.7
+    MAE=10.5  RMSE=13.1  MAPE=62.4%  WIS=74.83
+  SARIMAX: ordem(2, 0, 2)  AICc=7807.2
+    MAE=63.1  RMSE=85.2  MAPE=265.8%  WIS=92.44
+  ★ Melhor modelo V4: ETS (WIS=74.83)
+
+======================================================================
+UF: SP  (uf_code=35)
+======================================================================
+Breusch-Pagan p=0.0000 → log1p
+KPSS d sugerido = 1
+
+  -- Validation 1 --
+  Treino : 2010-01-03 → 2022-06-19 (651 sem)
+  Gap    : 16 semanas
+  Target : 2022-10-09 → 2023-10-01 (52 sem)
+  ARIMA: SARIMA(2, 1, 2)x(1, 0, 0, 52) AICc=-302.5
+    MAE=1850.9  RMSE=3278.8  MAPE=30.4%  WIS=17861.00
+  ETS: trend=None  seasonal=None  damped=False  AICc=-662.9
+    MAE=6800.8  RMSE=7999.6  MAPE=382.5%  WIS=19991.02
+  SARIMAX: ordem(2, 1, 2)  AICc=-275.7
+    MAE=13509.1  RMSE=20583.3  MAPE=262.8%  WIS=126075.14
+  ★ Melhor modelo V1: ARIMA (WIS=17861.00)
+
+  -- Validation 2 --
+  Treino : 2010-01-03 → 2023-06-18 (703 sem)
+  Gap    : 16 semanas
+  Target : 2023-10-08 → 2024-09-29 (52 sem)
+  ARIMA: SARIMA(2, 1, 2)x(1, 0, 0, 52) AICc=-358.1
+    MAE=37782.6  RMSE=63071.8  MAPE=75.5%  WIS=33696.07
+  ETS: trend=None  seasonal=None  damped=False  AICc=-726.0
+    MAE=39271.3  RMSE=65683.8  MAPE=103.7%  WIS=39921.47
+  SARIMAX: ordem(2, 1, 2)  AICc=-326.5
+    MAE=33965.1  RMSE=58191.9  MAPE=63.4%  WIS=54187.75
+  ★ Melhor modelo V2: ARIMA (WIS=33696.07)
+
+  -- Validation 3 --
+  Treino : 2010-01-03 → 2024-06-16 (755 sem)
+  Gap    : 16 semanas
+  Target : 2024-10-06 → 2025-09-28 (52 sem)
+  ARIMA: SARIMA(2, 1, 2)x(1, 0, 0, 52) AICc=-401.5
+    MAE=21354.1  RMSE=31246.1  MAPE=267.2%  WIS=143188.02
+  ETS: trend=None  seasonal=None  damped=False  AICc=-775.6
+    MAE=37664.8  RMSE=42091.9  MAPE=1141.0%  WIS=213472.82
+  SARIMAX: ordem(2, 1, 2)  AICc=-361.6
+    MAE=268296.0  RMSE=409344.4  MAPE=1421.0%  WIS=2135630.64
+  ★ Melhor modelo V3: ARIMA (WIS=143188.02)
+
+  -- Validation 4 --
+  Treino : 2010-01-03 → 2025-06-15 (807 sem)
+  Gap    : 16 semanas
+  Target : 2025-10-05 → 2026-03-08 (23 sem)
+  ARIMA: SARIMA(2, 1, 2)x(1, 0, 0, 52) AICc=-472.2
+    MAE=10405.8  RMSE=13592.4  MAPE=415.7%  WIS=43385.76
+  ETS: trend=None  seasonal=None  damped=False  AICc=-834.0
+    MAE=7827.5  RMSE=7880.6  MAPE=361.1%  WIS=20773.76
+  SARIMAX: ordem(2, 1, 2)  AICc=-425.7
+    MAE=2679.7  RMSE=3711.2  MAPE=116.8%  WIS=9542.22
+  ★ Melhor modelo V4: SARIMAX (WIS=9542.22)
+
+======================================================================
+UF: TO  (uf_code=17)
+======================================================================
+Breusch-Pagan p=0.0000 → log1p
+KPSS d sugerido = 0
+
+  -- Validation 1 --
+  Treino : 2010-01-03 → 2022-06-19 (651 sem)
+  Gap    : 16 semanas
+  Target : 2022-10-09 → 2023-10-01 (52 sem)
+  ARIMA: SARIMA(1, 0, 2)x(1, 0, 0, 52) AICc=252.7
+    MAE=122.9  RMSE=133.6  MAPE=277.3%  WIS=396.73
+  ETS: trend=None  seasonal=None  damped=False  AICc=-1048.1
+    MAE=328.7  RMSE=333.6  MAPE=800.7%  WIS=716.44
+  SARIMAX: ordem(1, 0, 2)  AICc=328.2
+    MAE=81.7  RMSE=107.9  MAPE=90.7%  WIS=197.17
+  ★ Melhor modelo V1: SARIMAX (WIS=197.17)
+
+  -- Validation 2 --
+  Treino : 2010-01-03 → 2023-06-18 (703 sem)
+  Gap    : 16 semanas
+  Target : 2023-10-08 → 2024-09-29 (52 sem)
+  ARIMA: SARIMA(2, 0, 0)x(1, 0, 0, 52) AICc=260.4
+    MAE=69.2  RMSE=97.9  MAPE=157.9%  WIS=121.31
+  ETS: trend=None  seasonal=None  damped=False  AICc=-1147.9
+    MAE=75.0  RMSE=101.9  MAPE=195.0%  WIS=115.36
+  SARIMAX: ordem(2, 0, 0)  AICc=368.2
+    MAE=45.7  RMSE=68.9  MAPE=58.7%  WIS=94.12
+  ★ Melhor modelo V2: SARIMAX (WIS=94.12)
+
+  -- Validation 3 --
+  Treino : 2010-01-03 → 2024-06-16 (755 sem)
+  Gap    : 16 semanas
+  Target : 2024-10-06 → 2025-09-28 (52 sem)
+  ARIMA: SARIMA(2, 0, 0)x(1, 0, 0, 52) AICc=281.4
+    MAE=29.8  RMSE=34.3  MAPE=150.6%  WIS=136.75
+  ETS: trend=None  seasonal=None  damped=False  AICc=-1231.0
+    MAE=42.6  RMSE=50.4  MAPE=233.4%  WIS=161.29
+  SARIMAX: ordem(2, 0, 0)  AICc=364.8
+    MAE=36.0  RMSE=45.3  MAPE=102.2%  WIS=91.82
+  ★ Melhor modelo V3: SARIMAX (WIS=91.82)
+
+  -- Validation 4 --
+  Treino : 2010-01-03 → 2025-06-15 (807 sem)
+  Gap    : 16 semanas
+  Target : 2025-10-05 → 2026-03-08 (23 sem)
+  ARIMA: SARIMA(2, 0, 0)x(1, 0, 0, 52) AICc=323.4
+    MAE=311.2  RMSE=486.0  MAPE=64.0%  WIS=293.80
+  ETS: trend=None  seasonal=None  damped=False  AICc=-1307.3
+    MAE=316.4  RMSE=489.2  MAPE=83.8%  WIS=313.84
+  SARIMAX: ordem(2, 0, 0)  AICc=428.3
+    MAE=18041.6  RMSE=27844.3  MAPE=3230.1%  WIS=27306.46
+  ★ Melhor modelo V4: ARIMA (WIS=293.80)
