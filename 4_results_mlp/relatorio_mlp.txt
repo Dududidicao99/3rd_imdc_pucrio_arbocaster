@@ -1,0 +1,2236 @@
+
+======================================================================
+UF: AC  (uf_code=12)
+======================================================================
+Breusch-Pagan p=0.0000 → log1p
+KPSS d sugerido = 0
+
+  -- Validation 1 --
+  Treino : 2010-01-03 → 2022-06-19 (651 sem)
+  Gap    : 16 semanas
+  Target : 2022-10-09 → 2023-10-01 (52 sem)
+  MLP Hiperparâmetros:
+    Arquitetura     : Input(273) → Dense(64, relu, drop=0.1) → Dense(32, relu, drop=0.1) → Output(1)
+    window_size     : 13 semanas
+    hidden_layers   : [64, 32]
+    learning_rate   : 0.001
+    dropout_p       : 0.1
+    epochs_run      : 171
+    batch_size      : 32
+    activation      : relu
+    MC passes       : 500
+    use_log         : True
+    d_diff          : 0
+    val_MSE (search): 0.006445
+  Métricas:
+    MAE=2903.0  RMSE=3915.3  MAPE=7257.0%  WIS=5976.61
+
+  -- Validation 2 --
+  Treino : 2010-01-03 → 2023-06-18 (703 sem)
+  Gap    : 16 semanas
+  Target : 2023-10-08 → 2024-09-29 (52 sem)
+  MLP Hiperparâmetros:
+    Arquitetura     : Input(168) → Dense(128, relu, drop=0.1) → Dense(64, relu, drop=0.1) → Dense(32, relu, drop=0.1) → Output(1)
+    window_size     : 8 semanas
+    hidden_layers   : [128, 64, 32]
+    learning_rate   : 0.0005
+    dropout_p       : 0.1
+    epochs_run      : 61
+    batch_size      : 32
+    activation      : relu
+    MC passes       : 500
+    use_log         : True
+    d_diff          : 0
+    val_MSE (search): 0.007761
+  Métricas:
+    MAE=234.3  RMSE=327.4  MAPE=320.8%  WIS=884.04
+
+  -- Validation 3 --
+  Treino : 2010-01-03 → 2024-06-16 (755 sem)
+  Gap    : 16 semanas
+  Target : 2024-10-06 → 2025-09-28 (52 sem)
+  MLP Hiperparâmetros:
+    Arquitetura     : Input(168) → Dense(64, relu, drop=0.1) → Dense(32, relu, drop=0.1) → Output(1)
+    window_size     : 8 semanas
+    hidden_layers   : [64, 32]
+    learning_rate   : 0.0005
+    dropout_p       : 0.1
+    epochs_run      : 194
+    batch_size      : 32
+    activation      : relu
+    MC passes       : 500
+    use_log         : True
+    d_diff          : 0
+    val_MSE (search): 0.003603
+  Métricas:
+    MAE=353.6  RMSE=411.7  MAPE=537.9%  WIS=710.81
+
+  -- Validation 4 --
+  Treino : 2010-01-03 → 2025-06-15 (807 sem)
+  Gap    : 16 semanas
+  Target : 2025-10-05 → 2026-03-08 (23 sem)
+  MLP Hiperparâmetros:
+    Arquitetura     : Input(168) → Dense(64, relu, drop=0.1) → Dense(32, relu, drop=0.1) → Output(1)
+    window_size     : 8 semanas
+    hidden_layers   : [64, 32]
+    learning_rate   : 0.0005
+    dropout_p       : 0.1
+    epochs_run      : 119
+    batch_size      : 32
+    activation      : relu
+    MC passes       : 500
+    use_log         : True
+    d_diff          : 0
+    val_MSE (search): 0.001789
+  Métricas:
+    MAE=65.3  RMSE=74.7  MAPE=82.0%  WIS=64.98
+
+======================================================================
+UF: AL  (uf_code=27)
+======================================================================
+Breusch-Pagan p=0.0009 → log1p
+KPSS d sugerido = 1
+
+  -- Validation 1 --
+  Treino : 2010-01-03 → 2022-06-19 (651 sem)
+  Gap    : 16 semanas
+  Target : 2022-10-09 → 2023-10-01 (52 sem)
+  MLP Hiperparâmetros:
+    Arquitetura     : Input(168) → Dense(128, relu, drop=0.1) → Dense(64, relu, drop=0.1) → Dense(32, relu, drop=0.1) → Output(1)
+    window_size     : 8 semanas
+    hidden_layers   : [128, 64, 32]
+    learning_rate   : 0.0005
+    dropout_p       : 0.1
+    epochs_run      : 55
+    batch_size      : 32
+    activation      : relu
+    MC passes       : 500
+    use_log         : True
+    d_diff          : 1
+    val_MSE (search): 0.009027
+  Métricas:
+    MAE=266.2  RMSE=366.6  MAPE=503.1%  WIS=683.87
+
+  -- Validation 2 --
+  Treino : 2010-01-03 → 2023-06-18 (703 sem)
+  Gap    : 16 semanas
+  Target : 2023-10-08 → 2024-09-29 (52 sem)
+  MLP Hiperparâmetros:
+    Arquitetura     : Input(168) → Dense(128, relu, drop=0.1) → Dense(64, relu, drop=0.1) → Dense(32, relu, drop=0.1) → Output(1)
+    window_size     : 8 semanas
+    hidden_layers   : [128, 64, 32]
+    learning_rate   : 0.001
+    dropout_p       : 0.1
+    epochs_run      : 133
+    batch_size      : 32
+    activation      : relu
+    MC passes       : 500
+    use_log         : True
+    d_diff          : 1
+    val_MSE (search): 0.006354
+  Métricas:
+    MAE=355.6  RMSE=445.3  MAPE=91.8%  WIS=355.36
+
+  -- Validation 3 --
+  Treino : 2010-01-03 → 2024-06-16 (755 sem)
+  Gap    : 16 semanas
+  Target : 2024-10-06 → 2025-09-28 (52 sem)
+  MLP Hiperparâmetros:
+    Arquitetura     : Input(546) → Dense(128, relu, drop=0.2) → Dense(64, relu, drop=0.2) → Dense(32, relu, drop=0.2) → Output(1)
+    window_size     : 26 semanas
+    hidden_layers   : [128, 64, 32]
+    learning_rate   : 0.001
+    dropout_p       : 0.2
+    epochs_run      : 77
+    batch_size      : 32
+    activation      : relu
+    MC passes       : 500
+    use_log         : True
+    d_diff          : 1
+    val_MSE (search): 0.001955
+  Métricas:
+    MAE=155.5  RMSE=180.9  MAPE=125.2%  WIS=153.39
+
+  -- Validation 4 --
+  Treino : 2010-01-03 → 2025-06-15 (807 sem)
+  Gap    : 16 semanas
+  Target : 2025-10-05 → 2026-03-08 (23 sem)
+  MLP Hiperparâmetros:
+    Arquitetura     : Input(273) → Dense(128, relu, drop=0.2) → Dense(64, relu, drop=0.2) → Dense(32, relu, drop=0.2) → Output(1)
+    window_size     : 13 semanas
+    hidden_layers   : [128, 64, 32]
+    learning_rate   : 0.001
+    dropout_p       : 0.2
+    epochs_run      : 70
+    batch_size      : 32
+    activation      : relu
+    MC passes       : 500
+    use_log         : True
+    d_diff          : 1
+    val_MSE (search): 0.001453
+  Métricas:
+    MAE=20.0  RMSE=27.4  MAPE=36.3%  WIS=29.89
+
+======================================================================
+UF: AM  (uf_code=13)
+======================================================================
+Breusch-Pagan p=0.0000 → log1p
+KPSS d sugerido = 0
+
+  -- Validation 1 --
+  Treino : 2010-01-03 → 2022-06-19 (651 sem)
+  Gap    : 16 semanas
+  Target : 2022-10-09 → 2023-10-01 (52 sem)
+  MLP Hiperparâmetros:
+    Arquitetura     : Input(168) → Dense(128, relu, drop=0.1) → Dense(64, relu, drop=0.1) → Dense(32, relu, drop=0.1) → Output(1)
+    window_size     : 8 semanas
+    hidden_layers   : [128, 64, 32]
+    learning_rate   : 0.0005
+    dropout_p       : 0.1
+    epochs_run      : 88
+    batch_size      : 32
+    activation      : relu
+    MC passes       : 500
+    use_log         : True
+    d_diff          : 0
+    val_MSE (search): 0.004379
+  Métricas:
+    MAE=61.5  RMSE=81.3  MAPE=42.1%  WIS=60.50
+
+  -- Validation 2 --
+  Treino : 2010-01-03 → 2023-06-18 (703 sem)
+  Gap    : 16 semanas
+  Target : 2023-10-08 → 2024-09-29 (52 sem)
+  MLP Hiperparâmetros:
+    Arquitetura     : Input(168) → Dense(64, relu, drop=0.2) → Dense(32, relu, drop=0.2) → Output(1)
+    window_size     : 8 semanas
+    hidden_layers   : [64, 32]
+    learning_rate   : 0.0005
+    dropout_p       : 0.2
+    epochs_run      : 118
+    batch_size      : 32
+    activation      : relu
+    MC passes       : 500
+    use_log         : True
+    d_diff          : 0
+    val_MSE (search): 0.004483
+  Métricas:
+    MAE=174.9  RMSE=243.4  MAPE=81.7%  WIS=171.27
+
+  -- Validation 3 --
+  Treino : 2010-01-03 → 2024-06-16 (755 sem)
+  Gap    : 16 semanas
+  Target : 2024-10-06 → 2025-09-28 (52 sem)
+  MLP Hiperparâmetros:
+    Arquitetura     : Input(168) → Dense(128, relu, drop=0.1) → Dense(64, relu, drop=0.1) → Dense(32, relu, drop=0.1) → Output(1)
+    window_size     : 8 semanas
+    hidden_layers   : [128, 64, 32]
+    learning_rate   : 0.001
+    dropout_p       : 0.1
+    epochs_run      : 48
+    batch_size      : 32
+    activation      : relu
+    MC passes       : 500
+    use_log         : True
+    d_diff          : 0
+    val_MSE (search): 0.002365
+  Métricas:
+    MAE=63.6  RMSE=76.7  MAPE=91.0%  WIS=101.49
+
+  -- Validation 4 --
+  Treino : 2010-01-03 → 2025-06-15 (807 sem)
+  Gap    : 16 semanas
+  Target : 2025-10-05 → 2026-03-08 (23 sem)
+  MLP Hiperparâmetros:
+    Arquitetura     : Input(273) → Dense(64, relu, drop=0.2) → Dense(32, relu, drop=0.2) → Output(1)
+    window_size     : 13 semanas
+    hidden_layers   : [64, 32]
+    learning_rate   : 0.0005
+    dropout_p       : 0.2
+    epochs_run      : 138
+    batch_size      : 32
+    activation      : relu
+    MC passes       : 500
+    use_log         : True
+    d_diff          : 0
+    val_MSE (search): 0.001223
+  Métricas:
+    MAE=21.5  RMSE=30.9  MAPE=28.6%  WIS=24.01
+
+======================================================================
+UF: AP  (uf_code=16)
+======================================================================
+Breusch-Pagan p=0.0000 → log1p
+KPSS d sugerido = 1
+
+  -- Validation 1 --
+  Treino : 2010-01-03 → 2022-06-19 (651 sem)
+  Gap    : 16 semanas
+  Target : 2022-10-09 → 2023-10-01 (52 sem)
+  MLP Hiperparâmetros:
+    Arquitetura     : Input(168) → Dense(128, relu, drop=0.2) → Dense(64, relu, drop=0.2) → Dense(32, relu, drop=0.2) → Output(1)
+    window_size     : 8 semanas
+    hidden_layers   : [128, 64, 32]
+    learning_rate   : 0.0005
+    dropout_p       : 0.2
+    epochs_run      : 185
+    batch_size      : 32
+    activation      : relu
+    MC passes       : 500
+    use_log         : True
+    d_diff          : 1
+    val_MSE (search): 0.016107
+  Métricas:
+    MAE=18.9  RMSE=27.3  MAPE=83.7%  WIS=18.49
+
+  -- Validation 2 --
+  Treino : 2010-01-03 → 2023-06-18 (703 sem)
+  Gap    : 16 semanas
+  Target : 2023-10-08 → 2024-09-29 (52 sem)
+  MLP Hiperparâmetros:
+    Arquitetura     : Input(168) → Dense(64, relu, drop=0.2) → Dense(32, relu, drop=0.2) → Output(1)
+    window_size     : 8 semanas
+    hidden_layers   : [64, 32]
+    learning_rate   : 0.0005
+    dropout_p       : 0.2
+    epochs_run      : 212
+    batch_size      : 32
+    activation      : relu
+    MC passes       : 500
+    use_log         : True
+    d_diff          : 1
+    val_MSE (search): 0.013411
+  Métricas:
+    MAE=638.1  RMSE=1035.1  MAPE=495.0%  WIS=713.28
+
+  -- Validation 3 --
+  Treino : 2010-01-03 → 2024-06-16 (755 sem)
+  Gap    : 16 semanas
+  Target : 2024-10-06 → 2025-09-28 (52 sem)
+  MLP Hiperparâmetros:
+    Arquitetura     : Input(273) → Dense(128, relu, drop=0.2) → Dense(64, relu, drop=0.2) → Dense(32, relu, drop=0.2) → Output(1)
+    window_size     : 13 semanas
+    hidden_layers   : [128, 64, 32]
+    learning_rate   : 0.0005
+    dropout_p       : 0.2
+    epochs_run      : 139
+    batch_size      : 32
+    activation      : relu
+    MC passes       : 500
+    use_log         : True
+    d_diff          : 1
+    val_MSE (search): 0.009439
+  Métricas:
+    MAE=43.2  RMSE=49.1  MAPE=94.4%  WIS=42.04
+
+  -- Validation 4 --
+  Treino : 2010-01-03 → 2025-06-15 (807 sem)
+  Gap    : 16 semanas
+  Target : 2025-10-05 → 2026-03-08 (23 sem)
+  MLP Hiperparâmetros:
+    Arquitetura     : Input(273) → Dense(64, relu, drop=0.2) → Dense(32, relu, drop=0.2) → Output(1)
+    window_size     : 13 semanas
+    hidden_layers   : [64, 32]
+    learning_rate   : 0.001
+    dropout_p       : 0.2
+    epochs_run      : 94
+    batch_size      : 32
+    activation      : relu
+    MC passes       : 500
+    use_log         : True
+    d_diff          : 1
+    val_MSE (search): 0.006281
+  Métricas:
+    MAE=2336.5  RMSE=3171.0  MAPE=55735.3%  WIS=2536.91
+
+======================================================================
+UF: BA  (uf_code=29)
+======================================================================
+Breusch-Pagan p=0.0000 → log1p
+KPSS d sugerido = 0
+
+  -- Validation 1 --
+  Treino : 2010-01-03 → 2022-06-19 (651 sem)
+  Gap    : 16 semanas
+  Target : 2022-10-09 → 2023-10-01 (52 sem)
+  MLP Hiperparâmetros:
+    Arquitetura     : Input(168) → Dense(64, relu, drop=0.2) → Dense(32, relu, drop=0.2) → Output(1)
+    window_size     : 8 semanas
+    hidden_layers   : [64, 32]
+    learning_rate   : 0.0005
+    dropout_p       : 0.2
+    epochs_run      : 165
+    batch_size      : 32
+    activation      : relu
+    MC passes       : 500
+    use_log         : True
+    d_diff          : 0
+    val_MSE (search): 0.005718
+  Métricas:
+    MAE=815.7  RMSE=978.8  MAPE=77.8%  WIS=808.59
+
+  -- Validation 2 --
+  Treino : 2010-01-03 → 2023-06-18 (703 sem)
+  Gap    : 16 semanas
+  Target : 2023-10-08 → 2024-09-29 (52 sem)
+  MLP Hiperparâmetros:
+    Arquitetura     : Input(168) → Dense(64, relu, drop=0.2) → Dense(32, relu, drop=0.2) → Output(1)
+    window_size     : 8 semanas
+    hidden_layers   : [64, 32]
+    learning_rate   : 0.0005
+    dropout_p       : 0.2
+    epochs_run      : 184
+    batch_size      : 32
+    activation      : relu
+    MC passes       : 500
+    use_log         : True
+    d_diff          : 0
+    val_MSE (search): 0.005182
+  Métricas:
+    MAE=4499.3  RMSE=7763.7  MAPE=82.0%  WIS=4471.45
+
+  -- Validation 3 --
+  Treino : 2010-01-03 → 2024-06-16 (755 sem)
+  Gap    : 16 semanas
+  Target : 2024-10-06 → 2025-09-28 (52 sem)
+  MLP Hiperparâmetros:
+    Arquitetura     : Input(168) → Dense(64, relu, drop=0.2) → Dense(32, relu, drop=0.2) → Output(1)
+    window_size     : 8 semanas
+    hidden_layers   : [64, 32]
+    learning_rate   : 0.0005
+    dropout_p       : 0.2
+    epochs_run      : 167
+    batch_size      : 32
+    activation      : relu
+    MC passes       : 500
+    use_log         : True
+    d_diff          : 0
+    val_MSE (search): 0.002933
+  Métricas:
+    MAE=573.3  RMSE=687.4  MAPE=78.7%  WIS=551.37
+
+  -- Validation 4 --
+  Treino : 2010-01-03 → 2025-06-15 (807 sem)
+  Gap    : 16 semanas
+  Target : 2025-10-05 → 2026-03-08 (23 sem)
+  MLP Hiperparâmetros:
+    Arquitetura     : Input(168) → Dense(64, relu, drop=0.2) → Dense(32, relu, drop=0.2) → Output(1)
+    window_size     : 8 semanas
+    hidden_layers   : [64, 32]
+    learning_rate   : 0.0005
+    dropout_p       : 0.2
+    epochs_run      : 247
+    batch_size      : 32
+    activation      : relu
+    MC passes       : 500
+    use_log         : True
+    d_diff          : 0
+    val_MSE (search): 0.001605
+  Métricas:
+    MAE=212.4  RMSE=219.4  MAPE=72.7%  WIS=189.70
+
+======================================================================
+UF: CE  (uf_code=23)
+======================================================================
+Breusch-Pagan p=0.0000 → log1p
+KPSS d sugerido = 1
+
+  -- Validation 1 --
+  Treino : 2010-01-03 → 2022-06-19 (651 sem)
+  Gap    : 16 semanas
+  Target : 2022-10-09 → 2023-10-01 (52 sem)
+  MLP Hiperparâmetros:
+    Arquitetura     : Input(546) → Dense(64, relu, drop=0.2) → Dense(32, relu, drop=0.2) → Output(1)
+    window_size     : 26 semanas
+    hidden_layers   : [64, 32]
+    learning_rate   : 0.0005
+    dropout_p       : 0.2
+    epochs_run      : 46
+    batch_size      : 32
+    activation      : relu
+    MC passes       : 500
+    use_log         : True
+    d_diff          : 1
+    val_MSE (search): 0.010949
+  Métricas:
+    MAE=262.9  RMSE=334.4  MAPE=75.4%  WIS=265.23
+
+  -- Validation 2 --
+  Treino : 2010-01-03 → 2023-06-18 (703 sem)
+  Gap    : 16 semanas
+  Target : 2023-10-08 → 2024-09-29 (52 sem)
+  MLP Hiperparâmetros:
+    Arquitetura     : Input(546) → Dense(64, relu, drop=0.2) → Dense(32, relu, drop=0.2) → Output(1)
+    window_size     : 26 semanas
+    hidden_layers   : [64, 32]
+    learning_rate   : 0.001
+    dropout_p       : 0.2
+    epochs_run      : 34
+    batch_size      : 32
+    activation      : relu
+    MC passes       : 500
+    use_log         : True
+    d_diff          : 1
+    val_MSE (search): 0.006499
+  Métricas:
+    MAE=224.1  RMSE=317.8  MAPE=72.8%  WIS=218.07
+
+  -- Validation 3 --
+  Treino : 2010-01-03 → 2024-06-16 (755 sem)
+  Gap    : 16 semanas
+  Target : 2024-10-06 → 2025-09-28 (52 sem)
+  MLP Hiperparâmetros:
+    Arquitetura     : Input(546) → Dense(128, relu, drop=0.1) → Dense(64, relu, drop=0.1) → Dense(32, relu, drop=0.1) → Output(1)
+    window_size     : 26 semanas
+    hidden_layers   : [128, 64, 32]
+    learning_rate   : 0.001
+    dropout_p       : 0.1
+    epochs_run      : 39
+    batch_size      : 32
+    activation      : relu
+    MC passes       : 500
+    use_log         : True
+    d_diff          : 1
+    val_MSE (search): 0.003797
+  Métricas:
+    MAE=73.6  RMSE=93.5  MAPE=68.9%  WIS=70.92
+
+  -- Validation 4 --
+  Treino : 2010-01-03 → 2025-06-15 (807 sem)
+  Gap    : 16 semanas
+  Target : 2025-10-05 → 2026-03-08 (23 sem)
+  MLP Hiperparâmetros:
+    Arquitetura     : Input(546) → Dense(128, relu, drop=0.2) → Dense(64, relu, drop=0.2) → Dense(32, relu, drop=0.2) → Output(1)
+    window_size     : 26 semanas
+    hidden_layers   : [128, 64, 32]
+    learning_rate   : 0.0005
+    dropout_p       : 0.2
+    epochs_run      : 322
+    batch_size      : 32
+    activation      : relu
+    MC passes       : 500
+    use_log         : True
+    d_diff          : 1
+    val_MSE (search): 0.004124
+  Métricas:
+    MAE=91.1  RMSE=112.3  MAPE=103.7%  WIS=118.09
+
+======================================================================
+UF: DF  (uf_code=53)
+======================================================================
+Breusch-Pagan p=0.0000 → log1p
+KPSS d sugerido = 1
+
+  -- Validation 1 --
+  Treino : 2010-01-03 → 2022-06-19 (651 sem)
+  Gap    : 16 semanas
+  Target : 2022-10-09 → 2023-10-01 (52 sem)
+  MLP Hiperparâmetros:
+    Arquitetura     : Input(168) → Dense(128, relu, drop=0.2) → Dense(64, relu, drop=0.2) → Dense(32, relu, drop=0.2) → Output(1)
+    window_size     : 8 semanas
+    hidden_layers   : [128, 64, 32]
+    learning_rate   : 0.0005
+    dropout_p       : 0.2
+    epochs_run      : 52
+    batch_size      : 32
+    activation      : relu
+    MC passes       : 500
+    use_log         : True
+    d_diff          : 1
+    val_MSE (search): 0.010258
+  Métricas:
+    MAE=620.2  RMSE=678.1  MAPE=95.8%  WIS=618.02
+
+  -- Validation 2 --
+  Treino : 2010-01-03 → 2023-06-18 (703 sem)
+  Gap    : 16 semanas
+  Target : 2023-10-08 → 2024-09-29 (52 sem)
+  MLP Hiperparâmetros:
+    Arquitetura     : Input(273) → Dense(64, relu, drop=0.2) → Dense(32, relu, drop=0.2) → Output(1)
+    window_size     : 13 semanas
+    hidden_layers   : [64, 32]
+    learning_rate   : 0.001
+    dropout_p       : 0.2
+    epochs_run      : 57
+    batch_size      : 32
+    activation      : relu
+    MC passes       : 500
+    use_log         : True
+    d_diff          : 1
+    val_MSE (search): 0.005102
+  Métricas:
+    MAE=5411.9  RMSE=9189.3  MAPE=72.6%  WIS=5407.40
+
+  -- Validation 3 --
+  Treino : 2010-01-03 → 2024-06-16 (755 sem)
+  Gap    : 16 semanas
+  Target : 2024-10-06 → 2025-09-28 (52 sem)
+  MLP Hiperparâmetros:
+    Arquitetura     : Input(546) → Dense(128, relu, drop=0.2) → Dense(64, relu, drop=0.2) → Dense(32, relu, drop=0.2) → Output(1)
+    window_size     : 26 semanas
+    hidden_layers   : [128, 64, 32]
+    learning_rate   : 0.0005
+    dropout_p       : 0.2
+    epochs_run      : 71
+    batch_size      : 32
+    activation      : relu
+    MC passes       : 500
+    use_log         : True
+    d_diff          : 1
+    val_MSE (search): 0.003755
+  Métricas:
+    MAE=617.5  RMSE=843.4  MAPE=369.7%  WIS=1085.98
+
+  -- Validation 4 --
+  Treino : 2010-01-03 → 2025-06-15 (807 sem)
+  Gap    : 16 semanas
+  Target : 2025-10-05 → 2026-03-08 (23 sem)
+  MLP Hiperparâmetros:
+    Arquitetura     : Input(546) → Dense(128, relu, drop=0.1) → Dense(64, relu, drop=0.1) → Dense(32, relu, drop=0.1) → Output(1)
+    window_size     : 26 semanas
+    hidden_layers   : [128, 64, 32]
+    learning_rate   : 0.001
+    dropout_p       : 0.1
+    epochs_run      : 49
+    batch_size      : 32
+    activation      : relu
+    MC passes       : 500
+    use_log         : True
+    d_diff          : 1
+    val_MSE (search): 0.004567
+  Métricas:
+    MAE=66.0  RMSE=77.4  MAPE=41.0%  WIS=61.39
+
+======================================================================
+UF: GO  (uf_code=52)
+======================================================================
+Breusch-Pagan p=0.0000 → log1p
+KPSS d sugerido = 0
+
+  -- Validation 1 --
+  Treino : 2010-01-03 → 2022-06-19 (651 sem)
+  Gap    : 16 semanas
+  Target : 2022-10-09 → 2023-10-01 (52 sem)
+  MLP Hiperparâmetros:
+    Arquitetura     : Input(168) → Dense(64, relu, drop=0.2) → Dense(32, relu, drop=0.2) → Output(1)
+    window_size     : 8 semanas
+    hidden_layers   : [64, 32]
+    learning_rate   : 0.0005
+    dropout_p       : 0.2
+    epochs_run      : 124
+    batch_size      : 32
+    activation      : relu
+    MC passes       : 500
+    use_log         : True
+    d_diff          : 0
+    val_MSE (search): 0.007320
+  Métricas:
+    MAE=1070.7  RMSE=1320.8  MAPE=71.7%  WIS=1052.90
+
+  -- Validation 2 --
+  Treino : 2010-01-03 → 2023-06-18 (703 sem)
+  Gap    : 16 semanas
+  Target : 2023-10-08 → 2024-09-29 (52 sem)
+  MLP Hiperparâmetros:
+    Arquitetura     : Input(273) → Dense(64, relu, drop=0.1) → Dense(32, relu, drop=0.1) → Output(1)
+    window_size     : 13 semanas
+    hidden_layers   : [64, 32]
+    learning_rate   : 0.001
+    dropout_p       : 0.1
+    epochs_run      : 68
+    batch_size      : 32
+    activation      : relu
+    MC passes       : 500
+    use_log         : True
+    d_diff          : 0
+    val_MSE (search): 0.004684
+  Métricas:
+    MAE=6753.9  RMSE=9986.4  MAPE=89.5%  WIS=6733.88
+
+  -- Validation 3 --
+  Treino : 2010-01-03 → 2024-06-16 (755 sem)
+  Gap    : 16 semanas
+  Target : 2024-10-06 → 2025-09-28 (52 sem)
+  MLP Hiperparâmetros:
+    Arquitetura     : Input(168) → Dense(128, relu, drop=0.1) → Dense(64, relu, drop=0.1) → Dense(32, relu, drop=0.1) → Output(1)
+    window_size     : 8 semanas
+    hidden_layers   : [128, 64, 32]
+    learning_rate   : 0.001
+    dropout_p       : 0.1
+    epochs_run      : 136
+    batch_size      : 32
+    activation      : relu
+    MC passes       : 500
+    use_log         : True
+    d_diff          : 0
+    val_MSE (search): 0.002862
+  Métricas:
+    MAE=1381.7  RMSE=1854.9  MAPE=48.2%  WIS=1360.15
+
+  -- Validation 4 --
+  Treino : 2010-01-03 → 2025-06-15 (807 sem)
+  Gap    : 16 semanas
+  Target : 2025-10-05 → 2026-03-08 (23 sem)
+  MLP Hiperparâmetros:
+    Arquitetura     : Input(168) → Dense(64, relu, drop=0.2) → Dense(32, relu, drop=0.2) → Output(1)
+    window_size     : 8 semanas
+    hidden_layers   : [64, 32]
+    learning_rate   : 0.0005
+    dropout_p       : 0.2
+    epochs_run      : 172
+    batch_size      : 32
+    activation      : relu
+    MC passes       : 500
+    use_log         : True
+    d_diff          : 0
+    val_MSE (search): 0.001888
+  Métricas:
+    MAE=1126.8  RMSE=1715.9  MAPE=37.8%  WIS=1125.28
+
+======================================================================
+UF: MA  (uf_code=21)
+======================================================================
+Breusch-Pagan p=0.5189 → nível
+KPSS d sugerido = 0
+
+  -- Validation 1 --
+  Treino : 2010-01-03 → 2022-06-19 (651 sem)
+  Gap    : 16 semanas
+  Target : 2022-10-09 → 2023-10-01 (52 sem)
+  MLP Hiperparâmetros:
+    Arquitetura     : Input(168) → Dense(64, relu, drop=0.2) → Dense(32, relu, drop=0.2) → Output(1)
+    window_size     : 8 semanas
+    hidden_layers   : [64, 32]
+    learning_rate   : 0.0005
+    dropout_p       : 0.2
+    epochs_run      : 36
+    batch_size      : 32
+    activation      : relu
+    MC passes       : 500
+    use_log         : False
+    d_diff          : 0
+    val_MSE (search): 0.000460
+  Métricas:
+    MAE=72.9  RMSE=106.8  MAPE=62.0%  WIS=71.87
+
+  -- Validation 2 --
+  Treino : 2010-01-03 → 2023-06-18 (703 sem)
+  Gap    : 16 semanas
+  Target : 2023-10-08 → 2024-09-29 (52 sem)
+  MLP Hiperparâmetros:
+    Arquitetura     : Input(168) → Dense(128, relu, drop=0.1) → Dense(64, relu, drop=0.1) → Dense(32, relu, drop=0.1) → Output(1)
+    window_size     : 8 semanas
+    hidden_layers   : [128, 64, 32]
+    learning_rate   : 0.0005
+    dropout_p       : 0.1
+    epochs_run      : 60
+    batch_size      : 32
+    activation      : relu
+    MC passes       : 500
+    use_log         : False
+    d_diff          : 0
+    val_MSE (search): 0.001064
+  Métricas:
+    MAE=185.3  RMSE=337.8  MAPE=86.2%  WIS=185.46
+
+  -- Validation 3 --
+  Treino : 2010-01-03 → 2024-06-16 (755 sem)
+  Gap    : 16 semanas
+  Target : 2024-10-06 → 2025-09-28 (52 sem)
+  MLP Hiperparâmetros:
+    Arquitetura     : Input(168) → Dense(128, relu, drop=0.1) → Dense(64, relu, drop=0.1) → Dense(32, relu, drop=0.1) → Output(1)
+    window_size     : 8 semanas
+    hidden_layers   : [128, 64, 32]
+    learning_rate   : 0.0005
+    dropout_p       : 0.1
+    epochs_run      : 116
+    batch_size      : 32
+    activation      : relu
+    MC passes       : 500
+    use_log         : False
+    d_diff          : 0
+    val_MSE (search): 0.002178
+  Métricas:
+    MAE=69.6  RMSE=96.4  MAPE=77.5%  WIS=67.30
+
+  -- Validation 4 --
+  Treino : 2010-01-03 → 2025-06-15 (807 sem)
+  Gap    : 16 semanas
+  Target : 2025-10-05 → 2026-03-08 (23 sem)
+  MLP Hiperparâmetros:
+    Arquitetura     : Input(546) → Dense(64, relu, drop=0.1) → Dense(32, relu, drop=0.1) → Output(1)
+    window_size     : 26 semanas
+    hidden_layers   : [64, 32]
+    learning_rate   : 0.001
+    dropout_p       : 0.1
+    epochs_run      : 102
+    batch_size      : 32
+    activation      : relu
+    MC passes       : 500
+    use_log         : False
+    d_diff          : 0
+    val_MSE (search): 0.001451
+  Métricas:
+    MAE=158.7  RMSE=224.7  MAPE=99.2%  WIS=140.07
+
+======================================================================
+UF: MG  (uf_code=31)
+======================================================================
+Breusch-Pagan p=0.0000 → log1p
+KPSS d sugerido = 0
+
+  -- Validation 1 --
+  Treino : 2010-01-03 → 2022-06-19 (651 sem)
+  Gap    : 16 semanas
+  Target : 2022-10-09 → 2023-10-01 (52 sem)
+  MLP Hiperparâmetros:
+    Arquitetura     : Input(273) → Dense(64, relu, drop=0.1) → Dense(32, relu, drop=0.1) → Output(1)
+    window_size     : 13 semanas
+    hidden_layers   : [64, 32]
+    learning_rate   : 0.001
+    dropout_p       : 0.1
+    epochs_run      : 176
+    batch_size      : 32
+    activation      : relu
+    MC passes       : 500
+    use_log         : True
+    d_diff          : 0
+    val_MSE (search): 0.002901
+  Métricas:
+    MAE=7226.0  RMSE=11531.9  MAPE=80.3%  WIS=7211.07
+
+  -- Validation 2 --
+  Treino : 2010-01-03 → 2023-06-18 (703 sem)
+  Gap    : 16 semanas
+  Target : 2023-10-08 → 2024-09-29 (52 sem)
+  MLP Hiperparâmetros:
+    Arquitetura     : Input(168) → Dense(64, relu, drop=0.2) → Dense(32, relu, drop=0.2) → Output(1)
+    window_size     : 8 semanas
+    hidden_layers   : [64, 32]
+    learning_rate   : 0.0005
+    dropout_p       : 0.2
+    epochs_run      : 178
+    batch_size      : 32
+    activation      : relu
+    MC passes       : 500
+    use_log         : True
+    d_diff          : 0
+    val_MSE (search): 0.003323
+  Métricas:
+    MAE=33971.9  RMSE=56775.9  MAPE=89.9%  WIS=33960.77
+
+  -- Validation 3 --
+  Treino : 2010-01-03 → 2024-06-16 (755 sem)
+  Gap    : 16 semanas
+  Target : 2024-10-06 → 2025-09-28 (52 sem)
+  MLP Hiperparâmetros:
+    Arquitetura     : Input(273) → Dense(64, relu, drop=0.1) → Dense(32, relu, drop=0.1) → Output(1)
+    window_size     : 13 semanas
+    hidden_layers   : [64, 32]
+    learning_rate   : 0.0005
+    dropout_p       : 0.1
+    epochs_run      : 175
+    batch_size      : 32
+    activation      : relu
+    MC passes       : 500
+    use_log         : True
+    d_diff          : 0
+    val_MSE (search): 0.001795
+  Métricas:
+    MAE=2432.6  RMSE=3372.3  MAPE=79.7%  WIS=2395.01
+
+  -- Validation 4 --
+  Treino : 2010-01-03 → 2025-06-15 (807 sem)
+  Gap    : 16 semanas
+  Target : 2025-10-05 → 2026-03-08 (23 sem)
+  MLP Hiperparâmetros:
+    Arquitetura     : Input(273) → Dense(64, relu, drop=0.1) → Dense(32, relu, drop=0.1) → Output(1)
+    window_size     : 13 semanas
+    hidden_layers   : [64, 32]
+    learning_rate   : 0.0005
+    dropout_p       : 0.1
+    epochs_run      : 97
+    batch_size      : 32
+    activation      : relu
+    MC passes       : 500
+    use_log         : True
+    d_diff          : 0
+    val_MSE (search): 0.001280
+  Métricas:
+    MAE=1643.0  RMSE=1889.7  MAPE=90.3%  WIS=1632.39
+
+======================================================================
+UF: MS  (uf_code=50)
+======================================================================
+Breusch-Pagan p=0.0000 → log1p
+KPSS d sugerido = 0
+
+  -- Validation 1 --
+  Treino : 2010-01-03 → 2022-06-19 (651 sem)
+  Gap    : 16 semanas
+  Target : 2022-10-09 → 2023-10-01 (52 sem)
+  MLP Hiperparâmetros:
+    Arquitetura     : Input(273) → Dense(64, relu, drop=0.2) → Dense(32, relu, drop=0.2) → Output(1)
+    window_size     : 13 semanas
+    hidden_layers   : [64, 32]
+    learning_rate   : 0.0005
+    dropout_p       : 0.2
+    epochs_run      : 184
+    batch_size      : 32
+    activation      : relu
+    MC passes       : 500
+    use_log         : True
+    d_diff          : 0
+    val_MSE (search): 0.003900
+  Métricas:
+    MAE=932.2  RMSE=1385.1  MAPE=89.2%  WIS=931.46
+
+  -- Validation 2 --
+  Treino : 2010-01-03 → 2023-06-18 (703 sem)
+  Gap    : 16 semanas
+  Target : 2023-10-08 → 2024-09-29 (52 sem)
+  MLP Hiperparâmetros:
+    Arquitetura     : Input(273) → Dense(64, relu, drop=0.2) → Dense(32, relu, drop=0.2) → Output(1)
+    window_size     : 13 semanas
+    hidden_layers   : [64, 32]
+    learning_rate   : 0.0005
+    dropout_p       : 0.2
+    epochs_run      : 195
+    batch_size      : 32
+    activation      : relu
+    MC passes       : 500
+    use_log         : True
+    d_diff          : 0
+    val_MSE (search): 0.003053
+  Métricas:
+    MAE=348.3  RMSE=398.9  MAPE=406.7%  WIS=342.10
+
+  -- Validation 3 --
+  Treino : 2010-01-03 → 2024-06-16 (755 sem)
+  Gap    : 16 semanas
+  Target : 2024-10-06 → 2025-09-28 (52 sem)
+  MLP Hiperparâmetros:
+    Arquitetura     : Input(273) → Dense(128, relu, drop=0.2) → Dense(64, relu, drop=0.2) → Dense(32, relu, drop=0.2) → Output(1)
+    window_size     : 13 semanas
+    hidden_layers   : [128, 64, 32]
+    learning_rate   : 0.001
+    dropout_p       : 0.2
+    epochs_run      : 120
+    batch_size      : 32
+    activation      : relu
+    MC passes       : 500
+    use_log         : True
+    d_diff          : 0
+    val_MSE (search): 0.002441
+  Métricas:
+    MAE=201.9  RMSE=288.0  MAPE=87.6%  WIS=198.21
+
+  -- Validation 4 --
+  Treino : 2010-01-03 → 2025-06-15 (807 sem)
+  Gap    : 16 semanas
+  Target : 2025-10-05 → 2026-03-08 (23 sem)
+  MLP Hiperparâmetros:
+    Arquitetura     : Input(168) → Dense(64, relu, drop=0.1) → Dense(32, relu, drop=0.1) → Output(1)
+    window_size     : 8 semanas
+    hidden_layers   : [64, 32]
+    learning_rate   : 0.001
+    dropout_p       : 0.1
+    epochs_run      : 142
+    batch_size      : 32
+    activation      : relu
+    MC passes       : 500
+    use_log         : True
+    d_diff          : 0
+    val_MSE (search): 0.001678
+  Métricas:
+    MAE=61.0  RMSE=99.9  MAPE=44.0%  WIS=60.84
+
+======================================================================
+UF: MT  (uf_code=51)
+======================================================================
+Breusch-Pagan p=0.0399 → log1p
+KPSS d sugerido = 0
+
+  -- Validation 1 --
+  Treino : 2010-01-03 → 2022-06-19 (651 sem)
+  Gap    : 16 semanas
+  Target : 2022-10-09 → 2023-10-01 (52 sem)
+  MLP Hiperparâmetros:
+    Arquitetura     : Input(168) → Dense(128, relu, drop=0.1) → Dense(64, relu, drop=0.1) → Dense(32, relu, drop=0.1) → Output(1)
+    window_size     : 8 semanas
+    hidden_layers   : [128, 64, 32]
+    learning_rate   : 0.0005
+    dropout_p       : 0.1
+    epochs_run      : 142
+    batch_size      : 32
+    activation      : relu
+    MC passes       : 500
+    use_log         : True
+    d_diff          : 0
+    val_MSE (search): 0.005218
+  Métricas:
+    MAE=512.2  RMSE=673.5  MAPE=87.3%  WIS=508.89
+
+  -- Validation 2 --
+  Treino : 2010-01-03 → 2023-06-18 (703 sem)
+  Gap    : 16 semanas
+  Target : 2023-10-08 → 2024-09-29 (52 sem)
+  MLP Hiperparâmetros:
+    Arquitetura     : Input(168) → Dense(128, relu, drop=0.1) → Dense(64, relu, drop=0.1) → Dense(32, relu, drop=0.1) → Output(1)
+    window_size     : 8 semanas
+    hidden_layers   : [128, 64, 32]
+    learning_rate   : 0.0005
+    dropout_p       : 0.1
+    epochs_run      : 64
+    batch_size      : 32
+    activation      : relu
+    MC passes       : 500
+    use_log         : True
+    d_diff          : 0
+    val_MSE (search): 0.003733
+  Métricas:
+    MAE=775.2  RMSE=1066.7  MAPE=82.7%  WIS=772.91
+
+  -- Validation 3 --
+  Treino : 2010-01-03 → 2024-06-16 (755 sem)
+  Gap    : 16 semanas
+  Target : 2024-10-06 → 2025-09-28 (52 sem)
+  MLP Hiperparâmetros:
+    Arquitetura     : Input(273) → Dense(64, relu, drop=0.2) → Dense(32, relu, drop=0.2) → Output(1)
+    window_size     : 13 semanas
+    hidden_layers   : [64, 32]
+    learning_rate   : 0.0005
+    dropout_p       : 0.2
+    epochs_run      : 88
+    batch_size      : 32
+    activation      : relu
+    MC passes       : 500
+    use_log         : True
+    d_diff          : 0
+    val_MSE (search): 0.003345
+  Métricas:
+    MAE=507.0  RMSE=654.9  MAPE=113.3%  WIS=569.46
+
+  -- Validation 4 --
+  Treino : 2010-01-03 → 2025-06-15 (807 sem)
+  Gap    : 16 semanas
+  Target : 2025-10-05 → 2026-03-08 (23 sem)
+  MLP Hiperparâmetros:
+    Arquitetura     : Input(168) → Dense(64, relu, drop=0.1) → Dense(32, relu, drop=0.1) → Output(1)
+    window_size     : 8 semanas
+    hidden_layers   : [64, 32]
+    learning_rate   : 0.0005
+    dropout_p       : 0.1
+    epochs_run      : 217
+    batch_size      : 32
+    activation      : relu
+    MC passes       : 500
+    use_log         : True
+    d_diff          : 0
+    val_MSE (search): 0.002597
+  Métricas:
+    MAE=177.1  RMSE=218.3  MAPE=53.6%  WIS=177.18
+
+======================================================================
+UF: PA  (uf_code=15)
+======================================================================
+Breusch-Pagan p=0.7503 → nível
+KPSS d sugerido = 0
+
+  -- Validation 1 --
+  Treino : 2010-01-03 → 2022-06-19 (651 sem)
+  Gap    : 16 semanas
+  Target : 2022-10-09 → 2023-10-01 (52 sem)
+  MLP Hiperparâmetros:
+    Arquitetura     : Input(168) → Dense(64, relu, drop=0.1) → Dense(32, relu, drop=0.1) → Output(1)
+    window_size     : 8 semanas
+    hidden_layers   : [64, 32]
+    learning_rate   : 0.0005
+    dropout_p       : 0.1
+    epochs_run      : 153
+    batch_size      : 32
+    activation      : relu
+    MC passes       : 500
+    use_log         : False
+    d_diff          : 0
+    val_MSE (search): 0.002086
+  Métricas:
+    MAE=69.8  RMSE=99.5  MAPE=64.4%  WIS=69.68
+
+  -- Validation 2 --
+  Treino : 2010-01-03 → 2023-06-18 (703 sem)
+  Gap    : 16 semanas
+  Target : 2023-10-08 → 2024-09-29 (52 sem)
+  MLP Hiperparâmetros:
+    Arquitetura     : Input(168) → Dense(64, relu, drop=0.2) → Dense(32, relu, drop=0.2) → Output(1)
+    window_size     : 8 semanas
+    hidden_layers   : [64, 32]
+    learning_rate   : 0.001
+    dropout_p       : 0.2
+    epochs_run      : 80
+    batch_size      : 32
+    activation      : relu
+    MC passes       : 500
+    use_log         : False
+    d_diff          : 0
+    val_MSE (search): 0.002251
+  Métricas:
+    MAE=340.1  RMSE=501.2  MAPE=68.5%  WIS=334.88
+
+  -- Validation 3 --
+  Treino : 2010-01-03 → 2024-06-16 (755 sem)
+  Gap    : 16 semanas
+  Target : 2024-10-06 → 2025-09-28 (52 sem)
+  MLP Hiperparâmetros:
+    Arquitetura     : Input(273) → Dense(64, relu, drop=0.1) → Dense(32, relu, drop=0.1) → Output(1)
+    window_size     : 13 semanas
+    hidden_layers   : [64, 32]
+    learning_rate   : 0.001
+    dropout_p       : 0.1
+    epochs_run      : 142
+    batch_size      : 32
+    activation      : relu
+    MC passes       : 500
+    use_log         : False
+    d_diff          : 0
+    val_MSE (search): 0.005837
+  Métricas:
+    MAE=715.7  RMSE=791.4  MAPE=357.6%  WIS=731.61
+
+  -- Validation 4 --
+  Treino : 2010-01-03 → 2025-06-15 (807 sem)
+  Gap    : 16 semanas
+  Target : 2025-10-05 → 2026-03-08 (23 sem)
+  MLP Hiperparâmetros:
+    Arquitetura     : Input(168) → Dense(64, relu, drop=0.1) → Dense(32, relu, drop=0.1) → Output(1)
+    window_size     : 8 semanas
+    hidden_layers   : [64, 32]
+    learning_rate   : 0.001
+    dropout_p       : 0.1
+    epochs_run      : 81
+    batch_size      : 32
+    activation      : relu
+    MC passes       : 500
+    use_log         : False
+    d_diff          : 0
+    val_MSE (search): 0.007566
+  Métricas:
+    MAE=115.5  RMSE=125.7  MAPE=73.4%  WIS=158.83
+
+======================================================================
+UF: PB  (uf_code=25)
+======================================================================
+Breusch-Pagan p=0.6631 → nível
+KPSS d sugerido = 0
+
+  -- Validation 1 --
+  Treino : 2010-01-03 → 2022-06-19 (651 sem)
+  Gap    : 16 semanas
+  Target : 2022-10-09 → 2023-10-01 (52 sem)
+  MLP Hiperparâmetros:
+    Arquitetura     : Input(273) → Dense(64, relu, drop=0.2) → Dense(32, relu, drop=0.2) → Output(1)
+    window_size     : 13 semanas
+    hidden_layers   : [64, 32]
+    learning_rate   : 0.0005
+    dropout_p       : 0.2
+    epochs_run      : 159
+    batch_size      : 32
+    activation      : relu
+    MC passes       : 500
+    use_log         : False
+    d_diff          : 0
+    val_MSE (search): 0.000886
+  Métricas:
+    MAE=126.7  RMSE=164.5  MAPE=141.1%  WIS=131.89
+
+  -- Validation 2 --
+  Treino : 2010-01-03 → 2023-06-18 (703 sem)
+  Gap    : 16 semanas
+  Target : 2023-10-08 → 2024-09-29 (52 sem)
+  MLP Hiperparâmetros:
+    Arquitetura     : Input(273) → Dense(64, relu, drop=0.1) → Dense(32, relu, drop=0.1) → Output(1)
+    window_size     : 13 semanas
+    hidden_layers   : [64, 32]
+    learning_rate   : 0.0005
+    dropout_p       : 0.1
+    epochs_run      : 111
+    batch_size      : 32
+    activation      : relu
+    MC passes       : 500
+    use_log         : False
+    d_diff          : 0
+    val_MSE (search): 0.002429
+  Métricas:
+    MAE=181.4  RMSE=293.4  MAPE=71.2%  WIS=182.94
+
+  -- Validation 3 --
+  Treino : 2010-01-03 → 2024-06-16 (755 sem)
+  Gap    : 16 semanas
+  Target : 2024-10-06 → 2025-09-28 (52 sem)
+  MLP Hiperparâmetros:
+    Arquitetura     : Input(168) → Dense(64, relu, drop=0.2) → Dense(32, relu, drop=0.2) → Output(1)
+    window_size     : 8 semanas
+    hidden_layers   : [64, 32]
+    learning_rate   : 0.001
+    dropout_p       : 0.2
+    epochs_run      : 102
+    batch_size      : 32
+    activation      : relu
+    MC passes       : 500
+    use_log         : False
+    d_diff          : 0
+    val_MSE (search): 0.003020
+  Métricas:
+    MAE=57.7  RMSE=67.3  MAPE=40.7%  WIS=217.67
+
+  -- Validation 4 --
+  Treino : 2010-01-03 → 2025-06-15 (807 sem)
+  Gap    : 16 semanas
+  Target : 2025-10-05 → 2026-03-08 (23 sem)
+  MLP Hiperparâmetros:
+    Arquitetura     : Input(168) → Dense(64, relu, drop=0.2) → Dense(32, relu, drop=0.2) → Output(1)
+    window_size     : 8 semanas
+    hidden_layers   : [64, 32]
+    learning_rate   : 0.001
+    dropout_p       : 0.2
+    epochs_run      : 130
+    batch_size      : 32
+    activation      : relu
+    MC passes       : 500
+    use_log         : False
+    d_diff          : 0
+    val_MSE (search): 0.002374
+  Métricas:
+    MAE=73.0  RMSE=85.3  MAPE=63.0%  WIS=65.61
+
+======================================================================
+UF: PE  (uf_code=26)
+======================================================================
+Breusch-Pagan p=0.0011 → log1p
+KPSS d sugerido = 0
+
+  -- Validation 1 --
+  Treino : 2010-01-03 → 2022-06-19 (651 sem)
+  Gap    : 16 semanas
+  Target : 2022-10-09 → 2023-10-01 (52 sem)
+  MLP Hiperparâmetros:
+    Arquitetura     : Input(168) → Dense(64, relu, drop=0.2) → Dense(32, relu, drop=0.2) → Output(1)
+    window_size     : 8 semanas
+    hidden_layers   : [64, 32]
+    learning_rate   : 0.0005
+    dropout_p       : 0.2
+    epochs_run      : 151
+    batch_size      : 32
+    activation      : relu
+    MC passes       : 500
+    use_log         : True
+    d_diff          : 0
+    val_MSE (search): 0.003718
+  Métricas:
+    MAE=176.2  RMSE=194.8  MAPE=262.6%  WIS=451.27
+
+  -- Validation 2 --
+  Treino : 2010-01-03 → 2023-06-18 (703 sem)
+  Gap    : 16 semanas
+  Target : 2023-10-08 → 2024-09-29 (52 sem)
+  MLP Hiperparâmetros:
+    Arquitetura     : Input(273) → Dense(64, relu, drop=0.1) → Dense(32, relu, drop=0.1) → Output(1)
+    window_size     : 13 semanas
+    hidden_layers   : [64, 32]
+    learning_rate   : 0.0005
+    dropout_p       : 0.1
+    epochs_run      : 176
+    batch_size      : 32
+    activation      : relu
+    MC passes       : 500
+    use_log         : True
+    d_diff          : 0
+    val_MSE (search): 0.005667
+  Métricas:
+    MAE=407.2  RMSE=578.9  MAPE=59.7%  WIS=403.23
+
+  -- Validation 3 --
+  Treino : 2010-01-03 → 2024-06-16 (755 sem)
+  Gap    : 16 semanas
+  Target : 2024-10-06 → 2025-09-28 (52 sem)
+  MLP Hiperparâmetros:
+    Arquitetura     : Input(168) → Dense(64, relu, drop=0.1) → Dense(32, relu, drop=0.1) → Output(1)
+    window_size     : 8 semanas
+    hidden_layers   : [64, 32]
+    learning_rate   : 0.0005
+    dropout_p       : 0.1
+    epochs_run      : 167
+    batch_size      : 32
+    activation      : relu
+    MC passes       : 500
+    use_log         : True
+    d_diff          : 0
+    val_MSE (search): 0.005188
+  Métricas:
+    MAE=1258.8  RMSE=1271.6  MAPE=364.5%  WIS=1605.63
+
+  -- Validation 4 --
+  Treino : 2010-01-03 → 2025-06-15 (807 sem)
+  Gap    : 16 semanas
+  Target : 2025-10-05 → 2026-03-08 (23 sem)
+  MLP Hiperparâmetros:
+    Arquitetura     : Input(168) → Dense(64, relu, drop=0.2) → Dense(32, relu, drop=0.2) → Output(1)
+    window_size     : 8 semanas
+    hidden_layers   : [64, 32]
+    learning_rate   : 0.001
+    dropout_p       : 0.2
+    epochs_run      : 176
+    batch_size      : 32
+    activation      : relu
+    MC passes       : 500
+    use_log         : True
+    d_diff          : 0
+    val_MSE (search): 0.002445
+  Métricas:
+    MAE=173.7  RMSE=223.7  MAPE=40.4%  WIS=160.56
+
+======================================================================
+UF: PI  (uf_code=22)
+======================================================================
+Breusch-Pagan p=0.0041 → log1p
+KPSS d sugerido = 0
+
+  -- Validation 1 --
+  Treino : 2010-01-03 → 2022-06-19 (651 sem)
+  Gap    : 16 semanas
+  Target : 2022-10-09 → 2023-10-01 (52 sem)
+  MLP Hiperparâmetros:
+    Arquitetura     : Input(273) → Dense(64, relu, drop=0.1) → Dense(32, relu, drop=0.1) → Output(1)
+    window_size     : 13 semanas
+    hidden_layers   : [64, 32]
+    learning_rate   : 0.001
+    dropout_p       : 0.1
+    epochs_run      : 99
+    batch_size      : 32
+    activation      : relu
+    MC passes       : 500
+    use_log         : True
+    d_diff          : 0
+    val_MSE (search): 0.008317
+  Métricas:
+    MAE=135.9  RMSE=159.0  MAPE=847.3%  WIS=149.48
+
+  -- Validation 2 --
+  Treino : 2010-01-03 → 2023-06-18 (703 sem)
+  Gap    : 16 semanas
+  Target : 2023-10-08 → 2024-09-29 (52 sem)
+  MLP Hiperparâmetros:
+    Arquitetura     : Input(168) → Dense(128, relu, drop=0.1) → Dense(64, relu, drop=0.1) → Dense(32, relu, drop=0.1) → Output(1)
+    window_size     : 8 semanas
+    hidden_layers   : [128, 64, 32]
+    learning_rate   : 0.0005
+    dropout_p       : 0.1
+    epochs_run      : 146
+    batch_size      : 32
+    activation      : relu
+    MC passes       : 500
+    use_log         : True
+    d_diff          : 0
+    val_MSE (search): 0.007755
+  Métricas:
+    MAE=260.5  RMSE=384.0  MAPE=65.6%  WIS=260.13
+
+  -- Validation 3 --
+  Treino : 2010-01-03 → 2024-06-16 (755 sem)
+  Gap    : 16 semanas
+  Target : 2024-10-06 → 2025-09-28 (52 sem)
+  MLP Hiperparâmetros:
+    Arquitetura     : Input(273) → Dense(64, relu, drop=0.1) → Dense(32, relu, drop=0.1) → Output(1)
+    window_size     : 13 semanas
+    hidden_layers   : [64, 32]
+    learning_rate   : 0.0005
+    dropout_p       : 0.1
+    epochs_run      : 121
+    batch_size      : 32
+    activation      : relu
+    MC passes       : 500
+    use_log         : True
+    d_diff          : 0
+    val_MSE (search): 0.003405
+  Métricas:
+    MAE=109.2  RMSE=142.7  MAPE=101.4%  WIS=109.45
+
+  -- Validation 4 --
+  Treino : 2010-01-03 → 2025-06-15 (807 sem)
+  Gap    : 16 semanas
+  Target : 2025-10-05 → 2026-03-08 (23 sem)
+  MLP Hiperparâmetros:
+    Arquitetura     : Input(168) → Dense(64, relu, drop=0.1) → Dense(32, relu, drop=0.1) → Output(1)
+    window_size     : 8 semanas
+    hidden_layers   : [64, 32]
+    learning_rate   : 0.0005
+    dropout_p       : 0.1
+    epochs_run      : 85
+    batch_size      : 32
+    activation      : relu
+    MC passes       : 500
+    use_log         : True
+    d_diff          : 0
+    val_MSE (search): 0.001767
+  Métricas:
+    MAE=100.4  RMSE=128.4  MAPE=85.9%  WIS=99.22
+
+======================================================================
+UF: PR  (uf_code=41)
+======================================================================
+Breusch-Pagan p=0.0000 → log1p
+KPSS d sugerido = 1
+
+  -- Validation 1 --
+  Treino : 2010-01-03 → 2022-06-19 (651 sem)
+  Gap    : 16 semanas
+  Target : 2022-10-09 → 2023-10-01 (52 sem)
+  MLP Hiperparâmetros:
+    Arquitetura     : Input(168) → Dense(128, relu, drop=0.1) → Dense(64, relu, drop=0.1) → Dense(32, relu, drop=0.1) → Output(1)
+    window_size     : 8 semanas
+    hidden_layers   : [128, 64, 32]
+    learning_rate   : 0.001
+    dropout_p       : 0.1
+    epochs_run      : 73
+    batch_size      : 32
+    activation      : relu
+    MC passes       : 500
+    use_log         : True
+    d_diff          : 1
+    val_MSE (search): 0.015552
+  Métricas:
+    MAE=4080.9  RMSE=7130.3  MAPE=98.8%  WIS=4080.15
+
+  -- Validation 2 --
+  Treino : 2010-01-03 → 2023-06-18 (703 sem)
+  Gap    : 16 semanas
+  Target : 2023-10-08 → 2024-09-29 (52 sem)
+  MLP Hiperparâmetros:
+    Arquitetura     : Input(273) → Dense(128, relu, drop=0.1) → Dense(64, relu, drop=0.1) → Dense(32, relu, drop=0.1) → Output(1)
+    window_size     : 13 semanas
+    hidden_layers   : [128, 64, 32]
+    learning_rate   : 0.001
+    dropout_p       : 0.1
+    epochs_run      : 71
+    batch_size      : 32
+    activation      : relu
+    MC passes       : 500
+    use_log         : True
+    d_diff          : 1
+    val_MSE (search): 0.011576
+  Métricas:
+    MAE=12320.3  RMSE=17972.8  MAPE=392.6%  WIS=12380.48
+
+  -- Validation 3 --
+  Treino : 2010-01-03 → 2024-06-16 (755 sem)
+  Gap    : 16 semanas
+  Target : 2024-10-06 → 2025-09-28 (52 sem)
+  MLP Hiperparâmetros:
+    Arquitetura     : Input(546) → Dense(64, relu, drop=0.2) → Dense(32, relu, drop=0.2) → Output(1)
+    window_size     : 26 semanas
+    hidden_layers   : [64, 32]
+    learning_rate   : 0.001
+    dropout_p       : 0.2
+    epochs_run      : 153
+    batch_size      : 32
+    activation      : relu
+    MC passes       : 500
+    use_log         : True
+    d_diff          : 1
+    val_MSE (search): 0.006452
+  Métricas:
+    MAE=2299.1  RMSE=3021.6  MAPE=182.4%  WIS=2274.37
+
+  -- Validation 4 --
+  Treino : 2010-01-03 → 2025-06-15 (807 sem)
+  Gap    : 16 semanas
+  Target : 2025-10-05 → 2026-03-08 (23 sem)
+  MLP Hiperparâmetros:
+    Arquitetura     : Input(168) → Dense(64, relu, drop=0.1) → Dense(32, relu, drop=0.1) → Output(1)
+    window_size     : 8 semanas
+    hidden_layers   : [64, 32]
+    learning_rate   : 0.0005
+    dropout_p       : 0.1
+    epochs_run      : 94
+    batch_size      : 32
+    activation      : relu
+    MC passes       : 500
+    use_log         : True
+    d_diff          : 1
+    val_MSE (search): 0.005030
+  Métricas:
+    MAE=574.8  RMSE=655.7  MAPE=99.3%  WIS=574.16
+
+======================================================================
+UF: RJ  (uf_code=33)
+======================================================================
+Breusch-Pagan p=0.3889 → nível
+KPSS d sugerido = 0
+
+  -- Validation 1 --
+  Treino : 2010-01-03 → 2022-06-19 (651 sem)
+  Gap    : 16 semanas
+  Target : 2022-10-09 → 2023-10-01 (52 sem)
+  MLP Hiperparâmetros:
+    Arquitetura     : Input(168) → Dense(64, relu, drop=0.1) → Dense(32, relu, drop=0.1) → Output(1)
+    window_size     : 8 semanas
+    hidden_layers   : [64, 32]
+    learning_rate   : 0.0005
+    dropout_p       : 0.1
+    epochs_run      : 83
+    batch_size      : 32
+    activation      : relu
+    MC passes       : 500
+    use_log         : False
+    d_diff          : 0
+    val_MSE (search): 0.000047
+  Métricas:
+    MAE=595.3  RMSE=826.5  MAPE=113.3%  WIS=599.94
+
+  -- Validation 2 --
+  Treino : 2010-01-03 → 2023-06-18 (703 sem)
+  Gap    : 16 semanas
+  Target : 2023-10-08 → 2024-09-29 (52 sem)
+  MLP Hiperparâmetros:
+    Arquitetura     : Input(168) → Dense(64, relu, drop=0.1) → Dense(32, relu, drop=0.1) → Output(1)
+    window_size     : 8 semanas
+    hidden_layers   : [64, 32]
+    learning_rate   : 0.001
+    dropout_p       : 0.1
+    epochs_run      : 92
+    batch_size      : 32
+    activation      : relu
+    MC passes       : 500
+    use_log         : False
+    d_diff          : 0
+    val_MSE (search): 0.000187
+  Métricas:
+    MAE=6178.8  RMSE=10098.4  MAPE=100.0%  WIS=6129.92
+
+  -- Validation 3 --
+  Treino : 2010-01-03 → 2024-06-16 (755 sem)
+  Gap    : 16 semanas
+  Target : 2024-10-06 → 2025-09-28 (52 sem)
+  MLP Hiperparâmetros:
+    Arquitetura     : Input(168) → Dense(128, relu, drop=0.1) → Dense(64, relu, drop=0.1) → Dense(32, relu, drop=0.1) → Output(1)
+    window_size     : 8 semanas
+    hidden_layers   : [128, 64, 32]
+    learning_rate   : 0.001
+    dropout_p       : 0.1
+    epochs_run      : 166
+    batch_size      : 32
+    activation      : relu
+    MC passes       : 500
+    use_log         : False
+    d_diff          : 0
+    val_MSE (search): 0.003403
+  Métricas:
+    MAE=513.1  RMSE=735.2  MAPE=57.0%  WIS=508.38
+
+  -- Validation 4 --
+  Treino : 2010-01-03 → 2025-06-15 (807 sem)
+  Gap    : 16 semanas
+  Target : 2025-10-05 → 2026-03-08 (23 sem)
+  MLP Hiperparâmetros:
+    Arquitetura     : Input(168) → Dense(128, relu, drop=0.1) → Dense(64, relu, drop=0.1) → Dense(32, relu, drop=0.1) → Output(1)
+    window_size     : 8 semanas
+    hidden_layers   : [128, 64, 32]
+    learning_rate   : 0.0005
+    dropout_p       : 0.1
+    epochs_run      : 146
+    batch_size      : 32
+    activation      : relu
+    MC passes       : 500
+    use_log         : False
+    d_diff          : 0
+    val_MSE (search): 0.003589
+  Métricas:
+    MAE=83.5  RMSE=120.1  MAPE=41.5%  WIS=184.31
+
+======================================================================
+UF: RN  (uf_code=24)
+======================================================================
+Breusch-Pagan p=0.4275 → nível
+KPSS d sugerido = 0
+
+  -- Validation 1 --
+  Treino : 2010-01-03 → 2022-06-19 (651 sem)
+  Gap    : 16 semanas
+  Target : 2022-10-09 → 2023-10-01 (52 sem)
+  MLP Hiperparâmetros:
+    Arquitetura     : Input(168) → Dense(64, relu, drop=0.2) → Dense(32, relu, drop=0.2) → Output(1)
+    window_size     : 8 semanas
+    hidden_layers   : [64, 32]
+    learning_rate   : 0.001
+    dropout_p       : 0.2
+    epochs_run      : 135
+    batch_size      : 32
+    activation      : relu
+    MC passes       : 500
+    use_log         : False
+    d_diff          : 0
+    val_MSE (search): 0.000924
+  Métricas:
+    MAE=1543.0  RMSE=1546.7  MAPE=2461.3%  WIS=1501.53
+
+  -- Validation 2 --
+  Treino : 2010-01-03 → 2023-06-18 (703 sem)
+  Gap    : 16 semanas
+  Target : 2023-10-08 → 2024-09-29 (52 sem)
+  MLP Hiperparâmetros:
+    Arquitetura     : Input(168) → Dense(64, relu, drop=0.1) → Dense(32, relu, drop=0.1) → Output(1)
+    window_size     : 8 semanas
+    hidden_layers   : [64, 32]
+    learning_rate   : 0.001
+    dropout_p       : 0.1
+    epochs_run      : 81
+    batch_size      : 32
+    activation      : relu
+    MC passes       : 500
+    use_log         : False
+    d_diff          : 0
+    val_MSE (search): 0.001219
+  Métricas:
+    MAE=240.2  RMSE=326.3  MAPE=99.9%  WIS=296.63
+
+  -- Validation 3 --
+  Treino : 2010-01-03 → 2024-06-16 (755 sem)
+  Gap    : 16 semanas
+  Target : 2024-10-06 → 2025-09-28 (52 sem)
+  MLP Hiperparâmetros:
+    Arquitetura     : Input(168) → Dense(64, relu, drop=0.1) → Dense(32, relu, drop=0.1) → Output(1)
+    window_size     : 8 semanas
+    hidden_layers   : [64, 32]
+    learning_rate   : 0.0005
+    dropout_p       : 0.1
+    epochs_run      : 192
+    batch_size      : 32
+    activation      : relu
+    MC passes       : 500
+    use_log         : False
+    d_diff          : 0
+    val_MSE (search): 0.000915
+  Métricas:
+    MAE=1405.7  RMSE=1410.2  MAPE=894.1%  WIS=1368.19
+
+  -- Validation 4 --
+  Treino : 2010-01-03 → 2025-06-15 (807 sem)
+  Gap    : 16 semanas
+  Target : 2025-10-05 → 2026-03-08 (23 sem)
+  MLP Hiperparâmetros:
+    Arquitetura     : Input(168) → Dense(64, relu, drop=0.2) → Dense(32, relu, drop=0.2) → Output(1)
+    window_size     : 8 semanas
+    hidden_layers   : [64, 32]
+    learning_rate   : 0.0005
+    dropout_p       : 0.2
+    epochs_run      : 114
+    batch_size      : 32
+    activation      : relu
+    MC passes       : 500
+    use_log         : False
+    d_diff          : 0
+    val_MSE (search): 0.000518
+  Métricas:
+    MAE=90.6  RMSE=97.9  MAPE=100.3%  WIS=99.26
+
+======================================================================
+UF: RO  (uf_code=11)
+======================================================================
+Breusch-Pagan p=0.0001 → log1p
+KPSS d sugerido = 0
+
+  -- Validation 1 --
+  Treino : 2010-01-03 → 2022-06-19 (651 sem)
+  Gap    : 16 semanas
+  Target : 2022-10-09 → 2023-10-01 (52 sem)
+  MLP Hiperparâmetros:
+    Arquitetura     : Input(168) → Dense(64, relu, drop=0.1) → Dense(32, relu, drop=0.1) → Output(1)
+    window_size     : 8 semanas
+    hidden_layers   : [64, 32]
+    learning_rate   : 0.001
+    dropout_p       : 0.1
+    epochs_run      : 83
+    batch_size      : 32
+    activation      : relu
+    MC passes       : 500
+    use_log         : True
+    d_diff          : 0
+    val_MSE (search): 0.007099
+  Métricas:
+    MAE=249.4  RMSE=359.9  MAPE=92.4%  WIS=248.93
+
+  -- Validation 2 --
+  Treino : 2010-01-03 → 2023-06-18 (703 sem)
+  Gap    : 16 semanas
+  Target : 2023-10-08 → 2024-09-29 (52 sem)
+  MLP Hiperparâmetros:
+    Arquitetura     : Input(168) → Dense(128, relu, drop=0.1) → Dense(64, relu, drop=0.1) → Dense(32, relu, drop=0.1) → Output(1)
+    window_size     : 8 semanas
+    hidden_layers   : [128, 64, 32]
+    learning_rate   : 0.0005
+    dropout_p       : 0.1
+    epochs_run      : 102
+    batch_size      : 32
+    activation      : relu
+    MC passes       : 500
+    use_log         : True
+    d_diff          : 0
+    val_MSE (search): 0.005427
+  Métricas:
+    MAE=101.6  RMSE=178.0  MAPE=80.7%  WIS=101.15
+
+  -- Validation 3 --
+  Treino : 2010-01-03 → 2024-06-16 (755 sem)
+  Gap    : 16 semanas
+  Target : 2024-10-06 → 2025-09-28 (52 sem)
+  MLP Hiperparâmetros:
+    Arquitetura     : Input(168) → Dense(64, relu, drop=0.2) → Dense(32, relu, drop=0.2) → Output(1)
+    window_size     : 8 semanas
+    hidden_layers   : [64, 32]
+    learning_rate   : 0.0005
+    dropout_p       : 0.2
+    epochs_run      : 168
+    batch_size      : 32
+    activation      : relu
+    MC passes       : 500
+    use_log         : True
+    d_diff          : 0
+    val_MSE (search): 0.003852
+  Métricas:
+    MAE=45.0  RMSE=58.6  MAPE=83.3%  WIS=44.07
+
+  -- Validation 4 --
+  Treino : 2010-01-03 → 2025-06-15 (807 sem)
+  Gap    : 16 semanas
+  Target : 2025-10-05 → 2026-03-08 (23 sem)
+  MLP Hiperparâmetros:
+    Arquitetura     : Input(168) → Dense(64, relu, drop=0.2) → Dense(32, relu, drop=0.2) → Output(1)
+    window_size     : 8 semanas
+    hidden_layers   : [64, 32]
+    learning_rate   : 0.0005
+    dropout_p       : 0.2
+    epochs_run      : 94
+    batch_size      : 32
+    activation      : relu
+    MC passes       : 500
+    use_log         : True
+    d_diff          : 0
+    val_MSE (search): 0.004718
+  Métricas:
+    MAE=24.8  RMSE=28.2  MAPE=310.7%  WIS=34.21
+
+======================================================================
+UF: RR  (uf_code=14)
+======================================================================
+Breusch-Pagan p=0.0000 → log1p
+KPSS d sugerido = 1
+
+  -- Validation 1 --
+  Treino : 2010-01-03 → 2022-06-19 (651 sem)
+  Gap    : 16 semanas
+  Target : 2022-10-09 → 2023-10-01 (52 sem)
+  MLP Hiperparâmetros:
+    Arquitetura     : Input(273) → Dense(128, relu, drop=0.1) → Dense(64, relu, drop=0.1) → Dense(32, relu, drop=0.1) → Output(1)
+    window_size     : 13 semanas
+    hidden_layers   : [128, 64, 32]
+    learning_rate   : 0.0005
+    dropout_p       : 0.1
+    epochs_run      : 161
+    batch_size      : 32
+    activation      : relu
+    MC passes       : 500
+    use_log         : True
+    d_diff          : 1
+    val_MSE (search): 0.026173
+  Métricas:
+    MAE=3.9  RMSE=6.5  MAPE=100.0%  WIS=3.91
+
+  -- Validation 2 --
+  Treino : 2010-01-03 → 2023-06-18 (703 sem)
+  Gap    : 16 semanas
+  Target : 2023-10-08 → 2024-09-29 (52 sem)
+  MLP Hiperparâmetros:
+    Arquitetura     : Input(168) → Dense(128, relu, drop=0.2) → Dense(64, relu, drop=0.2) → Dense(32, relu, drop=0.2) → Output(1)
+    window_size     : 8 semanas
+    hidden_layers   : [128, 64, 32]
+    learning_rate   : 0.001
+    dropout_p       : 0.2
+    epochs_run      : 149
+    batch_size      : 32
+    activation      : relu
+    MC passes       : 500
+    use_log         : True
+    d_diff          : 1
+    val_MSE (search): 0.023368
+  Métricas:
+    MAE=9.1  RMSE=11.2  MAPE=148.8%  WIS=17.70
+
+  -- Validation 3 --
+  Treino : 2010-01-03 → 2024-06-16 (755 sem)
+  Gap    : 16 semanas
+  Target : 2024-10-06 → 2025-09-28 (52 sem)
+  MLP Hiperparâmetros:
+    Arquitetura     : Input(168) → Dense(128, relu, drop=0.2) → Dense(64, relu, drop=0.2) → Dense(32, relu, drop=0.2) → Output(1)
+    window_size     : 8 semanas
+    hidden_layers   : [128, 64, 32]
+    learning_rate   : 0.0005
+    dropout_p       : 0.2
+    epochs_run      : 123
+    batch_size      : 32
+    activation      : relu
+    MC passes       : 500
+    use_log         : True
+    d_diff          : 1
+    val_MSE (search): 0.023126
+  Métricas:
+    MAE=7.6  RMSE=9.3  MAPE=81.3%  WIS=7.75
+
+  -- Validation 4 --
+  Treino : 2010-01-03 → 2025-06-15 (807 sem)
+  Gap    : 16 semanas
+  Target : 2025-10-05 → 2026-03-08 (23 sem)
+  MLP Hiperparâmetros:
+    Arquitetura     : Input(546) → Dense(128, relu, drop=0.2) → Dense(64, relu, drop=0.2) → Dense(32, relu, drop=0.2) → Output(1)
+    window_size     : 26 semanas
+    hidden_layers   : [128, 64, 32]
+    learning_rate   : 0.0005
+    dropout_p       : 0.2
+    epochs_run      : 131
+    batch_size      : 32
+    activation      : relu
+    MC passes       : 500
+    use_log         : True
+    d_diff          : 1
+    val_MSE (search): 0.015700
+  Métricas:
+    MAE=3.3  RMSE=4.4  MAPE=49.7%  WIS=4.40
+
+======================================================================
+UF: RS  (uf_code=43)
+======================================================================
+Breusch-Pagan p=0.0000 → log1p
+KPSS d sugerido = 1
+
+  -- Validation 1 --
+  Treino : 2010-01-03 → 2022-06-19 (651 sem)
+  Gap    : 16 semanas
+  Target : 2022-10-09 → 2023-10-01 (52 sem)
+  MLP Hiperparâmetros:
+    Arquitetura     : Input(273) → Dense(64, relu, drop=0.2) → Dense(32, relu, drop=0.2) → Output(1)
+    window_size     : 13 semanas
+    hidden_layers   : [64, 32]
+    learning_rate   : 0.001
+    dropout_p       : 0.2
+    epochs_run      : 121
+    batch_size      : 32
+    activation      : relu
+    MC passes       : 500
+    use_log         : True
+    d_diff          : 1
+    val_MSE (search): 0.016825
+  Métricas:
+    MAE=1065.5  RMSE=1469.2  MAPE=1395.3%  WIS=2451.65
+
+  -- Validation 2 --
+  Treino : 2010-01-03 → 2023-06-18 (703 sem)
+  Gap    : 16 semanas
+  Target : 2023-10-08 → 2024-09-29 (52 sem)
+  MLP Hiperparâmetros:
+    Arquitetura     : Input(273) → Dense(64, relu, drop=0.2) → Dense(32, relu, drop=0.2) → Output(1)
+    window_size     : 13 semanas
+    hidden_layers   : [64, 32]
+    learning_rate   : 0.001
+    dropout_p       : 0.2
+    epochs_run      : 109
+    batch_size      : 32
+    activation      : relu
+    MC passes       : 500
+    use_log         : True
+    d_diff          : 1
+    val_MSE (search): 0.010189
+  Métricas:
+    MAE=4281.5  RMSE=7776.1  MAPE=96.5%  WIS=4281.35
+
+  -- Validation 3 --
+  Treino : 2010-01-03 → 2024-06-16 (755 sem)
+  Gap    : 16 semanas
+  Target : 2024-10-06 → 2025-09-28 (52 sem)
+  MLP Hiperparâmetros:
+    Arquitetura     : Input(273) → Dense(128, relu, drop=0.1) → Dense(64, relu, drop=0.1) → Dense(32, relu, drop=0.1) → Output(1)
+    window_size     : 13 semanas
+    hidden_layers   : [128, 64, 32]
+    learning_rate   : 0.0005
+    dropout_p       : 0.1
+    epochs_run      : 55
+    batch_size      : 32
+    activation      : relu
+    MC passes       : 500
+    use_log         : True
+    d_diff          : 1
+    val_MSE (search): 0.006344
+  Métricas:
+    MAE=2012.1  RMSE=2781.7  MAPE=576.2%  WIS=2418.45
+
+  -- Validation 4 --
+  Treino : 2010-01-03 → 2025-06-15 (807 sem)
+  Gap    : 16 semanas
+  Target : 2025-10-05 → 2026-03-08 (23 sem)
+  MLP Hiperparâmetros:
+    Arquitetura     : Input(168) → Dense(128, relu, drop=0.1) → Dense(64, relu, drop=0.1) → Dense(32, relu, drop=0.1) → Output(1)
+    window_size     : 8 semanas
+    hidden_layers   : [128, 64, 32]
+    learning_rate   : 0.0005
+    dropout_p       : 0.1
+    epochs_run      : 52
+    batch_size      : 32
+    activation      : relu
+    MC passes       : 500
+    use_log         : True
+    d_diff          : 1
+    val_MSE (search): 0.003913
+  Métricas:
+    MAE=262.4  RMSE=271.3  MAPE=99.1%  WIS=261.91
+
+======================================================================
+UF: SC  (uf_code=42)
+======================================================================
+Breusch-Pagan p=0.0000 → log1p
+KPSS d sugerido = 1
+
+  -- Validation 1 --
+  Treino : 2010-01-03 → 2022-06-19 (651 sem)
+  Gap    : 16 semanas
+  Target : 2022-10-09 → 2023-10-01 (52 sem)
+  MLP Hiperparâmetros:
+    Arquitetura     : Input(273) → Dense(128, relu, drop=0.2) → Dense(64, relu, drop=0.2) → Dense(32, relu, drop=0.2) → Output(1)
+    window_size     : 13 semanas
+    hidden_layers   : [128, 64, 32]
+    learning_rate   : 0.001
+    dropout_p       : 0.2
+    epochs_run      : 48
+    batch_size      : 32
+    activation      : relu
+    MC passes       : 500
+    use_log         : True
+    d_diff          : 1
+    val_MSE (search): 0.014693
+  Métricas:
+    MAE=2873.4  RMSE=5226.6  MAPE=91.9%  WIS=2873.27
+
+  -- Validation 2 --
+  Treino : 2010-01-03 → 2023-06-18 (703 sem)
+  Gap    : 16 semanas
+  Target : 2023-10-08 → 2024-09-29 (52 sem)
+  MLP Hiperparâmetros:
+    Arquitetura     : Input(168) → Dense(64, relu, drop=0.1) → Dense(32, relu, drop=0.1) → Output(1)
+    window_size     : 8 semanas
+    hidden_layers   : [64, 32]
+    learning_rate   : 0.001
+    dropout_p       : 0.1
+    epochs_run      : 42
+    batch_size      : 32
+    activation      : relu
+    MC passes       : 500
+    use_log         : True
+    d_diff          : 1
+    val_MSE (search): 0.007970
+  Métricas:
+    MAE=6938.4  RMSE=12350.3  MAPE=98.5%  WIS=6912.47
+
+  -- Validation 3 --
+  Treino : 2010-01-03 → 2024-06-16 (755 sem)
+  Gap    : 16 semanas
+  Target : 2024-10-06 → 2025-09-28 (52 sem)
+  MLP Hiperparâmetros:
+    Arquitetura     : Input(168) → Dense(128, relu, drop=0.1) → Dense(64, relu, drop=0.1) → Dense(32, relu, drop=0.1) → Output(1)
+    window_size     : 8 semanas
+    hidden_layers   : [128, 64, 32]
+    learning_rate   : 0.001
+    dropout_p       : 0.1
+    epochs_run      : 46
+    batch_size      : 32
+    activation      : relu
+    MC passes       : 500
+    use_log         : True
+    d_diff          : 1
+    val_MSE (search): 0.004190
+  Métricas:
+    MAE=4219.2  RMSE=4381.3  MAPE=2082.0%  WIS=7694.44
+
+  -- Validation 4 --
+  Treino : 2010-01-03 → 2025-06-15 (807 sem)
+  Gap    : 16 semanas
+  Target : 2025-10-05 → 2026-03-08 (23 sem)
+  MLP Hiperparâmetros:
+    Arquitetura     : Input(168) → Dense(64, relu, drop=0.2) → Dense(32, relu, drop=0.2) → Output(1)
+    window_size     : 8 semanas
+    hidden_layers   : [64, 32]
+    learning_rate   : 0.0005
+    dropout_p       : 0.2
+    epochs_run      : 43
+    batch_size      : 32
+    activation      : relu
+    MC passes       : 500
+    use_log         : True
+    d_diff          : 1
+    val_MSE (search): 0.002815
+  Métricas:
+    MAE=172.8  RMSE=227.4  MAPE=83.0%  WIS=150.79
+
+======================================================================
+UF: SE  (uf_code=28)
+======================================================================
+Breusch-Pagan p=0.2230 → nível
+KPSS d sugerido = 0
+
+  -- Validation 1 --
+  Treino : 2010-01-03 → 2022-06-19 (651 sem)
+  Gap    : 16 semanas
+  Target : 2022-10-09 → 2023-10-01 (52 sem)
+  MLP Hiperparâmetros:
+    Arquitetura     : Input(168) → Dense(128, relu, drop=0.2) → Dense(64, relu, drop=0.2) → Dense(32, relu, drop=0.2) → Output(1)
+    window_size     : 8 semanas
+    hidden_layers   : [128, 64, 32]
+    learning_rate   : 0.0005
+    dropout_p       : 0.2
+    epochs_run      : 112
+    batch_size      : 32
+    activation      : relu
+    MC passes       : 500
+    use_log         : False
+    d_diff          : 0
+    val_MSE (search): 0.000994
+  Métricas:
+    MAE=76.2  RMSE=82.8  MAPE=462.6%  WIS=80.87
+
+  -- Validation 2 --
+  Treino : 2010-01-03 → 2023-06-18 (703 sem)
+  Gap    : 16 semanas
+  Target : 2023-10-08 → 2024-09-29 (52 sem)
+  MLP Hiperparâmetros:
+    Arquitetura     : Input(168) → Dense(128, relu, drop=0.2) → Dense(64, relu, drop=0.2) → Dense(32, relu, drop=0.2) → Output(1)
+    window_size     : 8 semanas
+    hidden_layers   : [128, 64, 32]
+    learning_rate   : 0.001
+    dropout_p       : 0.2
+    epochs_run      : 102
+    batch_size      : 32
+    activation      : relu
+    MC passes       : 500
+    use_log         : False
+    d_diff          : 0
+    val_MSE (search): 0.001980
+  Métricas:
+    MAE=246.0  RMSE=248.2  MAPE=666.5%  WIS=222.78
+
+  -- Validation 3 --
+  Treino : 2010-01-03 → 2024-06-16 (755 sem)
+  Gap    : 16 semanas
+  Target : 2024-10-06 → 2025-09-28 (52 sem)
+  MLP Hiperparâmetros:
+    Arquitetura     : Input(168) → Dense(128, relu, drop=0.2) → Dense(64, relu, drop=0.2) → Dense(32, relu, drop=0.2) → Output(1)
+    window_size     : 8 semanas
+    hidden_layers   : [128, 64, 32]
+    learning_rate   : 0.001
+    dropout_p       : 0.2
+    epochs_run      : 101
+    batch_size      : 32
+    activation      : relu
+    MC passes       : 500
+    use_log         : False
+    d_diff          : 0
+    val_MSE (search): 0.001958
+  Métricas:
+    MAE=54.1  RMSE=54.8  MAPE=430.4%  WIS=54.81
+
+  -- Validation 4 --
+  Treino : 2010-01-03 → 2025-06-15 (807 sem)
+  Gap    : 16 semanas
+  Target : 2025-10-05 → 2026-03-08 (23 sem)
+  MLP Hiperparâmetros:
+    Arquitetura     : Input(168) → Dense(64, relu, drop=0.1) → Dense(32, relu, drop=0.1) → Output(1)
+    window_size     : 8 semanas
+    hidden_layers   : [64, 32]
+    learning_rate   : 0.0005
+    dropout_p       : 0.1
+    epochs_run      : 87
+    batch_size      : 32
+    activation      : relu
+    MC passes       : 500
+    use_log         : False
+    d_diff          : 0
+    val_MSE (search): 0.000969
+  Métricas:
+    MAE=17.6  RMSE=19.2  MAPE=113.6%  WIS=18.20
+
+======================================================================
+UF: SP  (uf_code=35)
+======================================================================
+Breusch-Pagan p=0.0000 → log1p
+KPSS d sugerido = 1
+
+  -- Validation 1 --
+  Treino : 2010-01-03 → 2022-06-19 (651 sem)
+  Gap    : 16 semanas
+  Target : 2022-10-09 → 2023-10-01 (52 sem)
+  MLP Hiperparâmetros:
+    Arquitetura     : Input(168) → Dense(64, relu, drop=0.2) → Dense(32, relu, drop=0.2) → Output(1)
+    window_size     : 8 semanas
+    hidden_layers   : [64, 32]
+    learning_rate   : 0.001
+    dropout_p       : 0.2
+    epochs_run      : 59
+    batch_size      : 32
+    activation      : relu
+    MC passes       : 500
+    use_log         : True
+    d_diff          : 1
+    val_MSE (search): 0.009949
+  Métricas:
+    MAE=6490.6  RMSE=10312.2  MAPE=94.5%  WIS=6483.26
+
+  -- Validation 2 --
+  Treino : 2010-01-03 → 2023-06-18 (703 sem)
+  Gap    : 16 semanas
+  Target : 2023-10-08 → 2024-09-29 (52 sem)
+  MLP Hiperparâmetros:
+    Arquitetura     : Input(273) → Dense(64, relu, drop=0.2) → Dense(32, relu, drop=0.2) → Output(1)
+    window_size     : 13 semanas
+    hidden_layers   : [64, 32]
+    learning_rate   : 0.0005
+    dropout_p       : 0.2
+    epochs_run      : 119
+    batch_size      : 32
+    activation      : relu
+    MC passes       : 500
+    use_log         : True
+    d_diff          : 1
+    val_MSE (search): 0.003887
+  Métricas:
+    MAE=1569468659.9  RMSE=4239814587.0  MAPE=46802269.7%  WIS=3705751884.02
+
+  -- Validation 3 --
+  Treino : 2010-01-03 → 2024-06-16 (755 sem)
+  Gap    : 16 semanas
+  Target : 2024-10-06 → 2025-09-28 (52 sem)
+  MLP Hiperparâmetros:
+    Arquitetura     : Input(546) → Dense(64, relu, drop=0.2) → Dense(32, relu, drop=0.2) → Output(1)
+    window_size     : 26 semanas
+    hidden_layers   : [64, 32]
+    learning_rate   : 0.0005
+    dropout_p       : 0.2
+    epochs_run      : 69
+    batch_size      : 32
+    activation      : relu
+    MC passes       : 500
+    use_log         : True
+    d_diff          : 1
+    val_MSE (search): 0.002647
+  Métricas:
+    MAE=15771.3  RMSE=23701.5  MAPE=97.6%  WIS=15520.02
+
+  -- Validation 4 --
+  Treino : 2010-01-03 → 2025-06-15 (807 sem)
+  Gap    : 16 semanas
+  Target : 2025-10-05 → 2026-03-08 (23 sem)
+  MLP Hiperparâmetros:
+    Arquitetura     : Input(546) → Dense(64, relu, drop=0.2) → Dense(32, relu, drop=0.2) → Output(1)
+    window_size     : 26 semanas
+    hidden_layers   : [64, 32]
+    learning_rate   : 0.001
+    dropout_p       : 0.2
+    epochs_run      : 115
+    batch_size      : 32
+    activation      : relu
+    MC passes       : 500
+    use_log         : True
+    d_diff          : 1
+    val_MSE (search): 0.001845
+  Métricas:
+    MAE=3396.6  RMSE=4054.3  MAPE=145.4%  WIS=3461.00
+
+======================================================================
+UF: TO  (uf_code=17)
+======================================================================
+Breusch-Pagan p=0.0000 → log1p
+KPSS d sugerido = 0
+
+  -- Validation 1 --
+  Treino : 2010-01-03 → 2022-06-19 (651 sem)
+  Gap    : 16 semanas
+  Target : 2022-10-09 → 2023-10-01 (52 sem)
+  MLP Hiperparâmetros:
+    Arquitetura     : Input(273) → Dense(64, relu, drop=0.1) → Dense(32, relu, drop=0.1) → Output(1)
+    window_size     : 13 semanas
+    hidden_layers   : [64, 32]
+    learning_rate   : 0.001
+    dropout_p       : 0.1
+    epochs_run      : 207
+    batch_size      : 32
+    activation      : relu
+    MC passes       : 500
+    use_log         : True
+    d_diff          : 0
+    val_MSE (search): 0.008620
+  Métricas:
+    MAE=9691.6  RMSE=15734.3  MAPE=43713.6%  WIS=993000.26
+
+  -- Validation 2 --
+  Treino : 2010-01-03 → 2023-06-18 (703 sem)
+  Gap    : 16 semanas
+  Target : 2023-10-08 → 2024-09-29 (52 sem)
+  MLP Hiperparâmetros:
+    Arquitetura     : Input(273) → Dense(64, relu, drop=0.1) → Dense(32, relu, drop=0.1) → Output(1)
+    window_size     : 13 semanas
+    hidden_layers   : [64, 32]
+    learning_rate   : 0.001
+    dropout_p       : 0.1
+    epochs_run      : 133
+    batch_size      : 32
+    activation      : relu
+    MC passes       : 500
+    use_log         : True
+    d_diff          : 0
+    val_MSE (search): 0.004256
+  Métricas:
+    MAE=86.0  RMSE=128.8  MAPE=69.8%  WIS=85.63
+
+  -- Validation 3 --
+  Treino : 2010-01-03 → 2024-06-16 (755 sem)
+  Gap    : 16 semanas
+  Target : 2024-10-06 → 2025-09-28 (52 sem)
+  MLP Hiperparâmetros:
+    Arquitetura     : Input(168) → Dense(64, relu, drop=0.2) → Dense(32, relu, drop=0.2) → Output(1)
+    window_size     : 8 semanas
+    hidden_layers   : [64, 32]
+    learning_rate   : 0.001
+    dropout_p       : 0.2
+    epochs_run      : 78
+    batch_size      : 32
+    activation      : relu
+    MC passes       : 500
+    use_log         : True
+    d_diff          : 0
+    val_MSE (search): 0.002445
+  Métricas:
+    MAE=412.4  RMSE=457.7  MAPE=1436.6%  WIS=1310.96
+
+  -- Validation 4 --
+  Treino : 2010-01-03 → 2025-06-15 (807 sem)
+  Gap    : 16 semanas
+  Target : 2025-10-05 → 2026-03-08 (23 sem)
+  MLP Hiperparâmetros:
+    Arquitetura     : Input(168) → Dense(64, relu, drop=0.1) → Dense(32, relu, drop=0.1) → Output(1)
+    window_size     : 8 semanas
+    hidden_layers   : [64, 32]
+    learning_rate   : 0.001
+    dropout_p       : 0.1
+    epochs_run      : 94
+    batch_size      : 32
+    activation      : relu
+    MC passes       : 500
+    use_log         : True
+    d_diff          : 0
+    val_MSE (search): 0.002521
+  Métricas:
+    MAE=326.2  RMSE=505.6  MAPE=64.6%  WIS=324.20
