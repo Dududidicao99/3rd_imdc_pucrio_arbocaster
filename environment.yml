@@ -1,0 +1,41 @@
+name: imdc2026-dengue
+channels:
+  - conda-forge
+  - pytorch
+  - defaults
+
+dependencies:
+  - python=3.11
+  - pip
+
+  # ── Core data handling ──────────────────────────────────────────────────
+  - numpy
+  - pandas
+  - pyarrow          # backend de leitura/escrita dos arquivos .parquet
+  - scipy
+
+  # ── Machine learning ─────────────────────────────────────────────────────
+  - scikit-learn     # MinMaxScaler, Ridge, GradientBoostingRegressor, KFold, métricas
+
+  # ── Deep learning (MLP) ──────────────────────────────────────────────────
+  - pytorch           # nn.Module, DataLoader, treino do MLP (CPU)
+  - cpuonly           # build CPU-only do PyTorch (remova esta linha se usar GPU/CUDA)
+
+  # ── Séries temporais / estatística clássica ──────────────────────────────
+  - statsmodels       # ETS, SARIMAX, KPSS, Breusch-Pagan, OLS
+
+  # ── Geoespacial (engenharia de features / área dos municípios) ───────────
+  - geopandas
+
+  # ── Visualização ──────────────────────────────────────────────────────────
+  - matplotlib
+
+  # ── Ambiente de desenvolvimento ───────────────────────────────────────────
+  - jupyter
+  - ipykernel
+
+  # ── Pacotes só disponíveis via pip ────────────────────────────────────────
+  - pip:
+      - pmdarima          # auto_arima (seleção automática de ordem ARIMA/SARIMA)
+      - python-dotenv      # carrega a API_KEY do arquivo .env
+      - mosqlient          # cliente oficial da plataforma Mosqlimate (submissão IMDC)
