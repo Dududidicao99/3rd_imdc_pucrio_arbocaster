@@ -45,7 +45,7 @@ BASE_DIR = Path("your/local/path/here")
 
 ## Libraries and Dependencies
 
-> More informations about all dependencies for statistical and neural forecasting components are provided by `environment.yml`.
+More informations about all dependencies for statistical and neural forecasting components are provided by `environment.yml`.
 
 ## Data and Variables
 
