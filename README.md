@@ -45,7 +45,7 @@ BASE_DIR = Path("your/local/path/here")
 
 ## Libraries and Dependencies
 
-> `environment.yml` will be provided once all model scripts are finalized. It will cover all dependencies for statistical and neural forecasting components, including `statsmodels`, `pmdarima`, `scikit-learn`, `torch`, `numpy`, `pandas`, `geopandas`, and `matplotlib`.
+> More informations about all dependencies for statistical and neural forecasting components are provided by `environment.yml`.
 
 ## Data and Variables
 
